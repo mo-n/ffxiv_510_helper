@@ -1,0 +1,1262 @@
+{
+  "0": {
+    "id": 0,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "1": {
+    "id": 1,
+    "lang": [
+      "All Classes",
+      "所有职业"
+    ]
+  },
+  "2": {
+    "id": 2,
+    "lang": [
+      "GLA",
+      "剑术师"
+    ]
+  },
+  "3": {
+    "id": 3,
+    "lang": [
+      "PGL",
+      "格斗家"
+    ]
+  },
+  "4": {
+    "id": 4,
+    "lang": [
+      "MRD",
+      "斧术师"
+    ]
+  },
+  "5": {
+    "id": 5,
+    "lang": [
+      "LNC",
+      "枪术师"
+    ]
+  },
+  "6": {
+    "id": 6,
+    "lang": [
+      "ARC",
+      "弓箭手"
+    ]
+  },
+  "7": {
+    "id": 7,
+    "lang": [
+      "CNJ",
+      "幻术师"
+    ]
+  },
+  "8": {
+    "id": 8,
+    "lang": [
+      "THM",
+      "咒术师"
+    ]
+  },
+  "9": {
+    "id": 9,
+    "lang": [
+      "CRP",
+      "刻木匠"
+    ]
+  },
+  "10": {
+    "id": 10,
+    "lang": [
+      "BSM",
+      "锻铁匠"
+    ]
+  },
+  "11": {
+    "id": 11,
+    "lang": [
+      "ARM",
+      "铸甲匠"
+    ]
+  },
+  "12": {
+    "id": 12,
+    "lang": [
+      "GSM",
+      "雕金匠"
+    ]
+  },
+  "13": {
+    "id": 13,
+    "lang": [
+      "LTW",
+      "制革匠"
+    ]
+  },
+  "14": {
+    "id": 14,
+    "lang": [
+      "WVR",
+      "裁衣匠"
+    ]
+  },
+  "15": {
+    "id": 15,
+    "lang": [
+      "ALC",
+      "炼金术士"
+    ]
+  },
+  "16": {
+    "id": 16,
+    "lang": [
+      "CUL",
+      "烹调师"
+    ]
+  },
+  "17": {
+    "id": 17,
+    "lang": [
+      "MIN",
+      "采矿工"
+    ]
+  },
+  "18": {
+    "id": 18,
+    "lang": [
+      "BTN",
+      "园艺工"
+    ]
+  },
+  "19": {
+    "id": 19,
+    "lang": [
+      "FSH",
+      "捕鱼人"
+    ]
+  },
+  "20": {
+    "id": 20,
+    "lang": [
+      "PLD",
+      "骑士"
+    ]
+  },
+  "21": {
+    "id": 21,
+    "lang": [
+      "MNK",
+      "武僧"
+    ]
+  },
+  "22": {
+    "id": 22,
+    "lang": [
+      "WAR",
+      "战士"
+    ]
+  },
+  "23": {
+    "id": 23,
+    "lang": [
+      "DRG",
+      "龙骑士"
+    ]
+  },
+  "24": {
+    "id": 24,
+    "lang": [
+      "BRD",
+      "吟游诗人"
+    ]
+  },
+  "25": {
+    "id": 25,
+    "lang": [
+      "WHM",
+      "白魔法师"
+    ]
+  },
+  "26": {
+    "id": 26,
+    "lang": [
+      "BLM",
+      "黑魔法师"
+    ]
+  },
+  "27": {
+    "id": 27,
+    "lang": [
+      "ACN",
+      "秘术师"
+    ]
+  },
+  "28": {
+    "id": 28,
+    "lang": [
+      "SMN",
+      "召唤师"
+    ]
+  },
+  "29": {
+    "id": 29,
+    "lang": [
+      "SCH",
+      "学者"
+    ]
+  },
+  "30": {
+    "id": 30,
+    "lang": [
+      "Disciple of War",
+      "战斗精英"
+    ]
+  },
+  "31": {
+    "id": 31,
+    "lang": [
+      "Disciple of Magic",
+      "魔法导师"
+    ]
+  },
+  "32": {
+    "id": 32,
+    "lang": [
+      "Disciple of the Land",
+      "大地使者"
+    ]
+  },
+  "33": {
+    "id": 33,
+    "lang": [
+      "Disciple of the Hand",
+      "能工巧匠"
+    ]
+  },
+  "34": {
+    "id": 34,
+    "lang": [
+      "Disciples of War or Magic",
+      "战斗精英 魔法导师"
+    ]
+  },
+  "35": {
+    "id": 35,
+    "lang": [
+      "Disciples of the Land or Hand",
+      "能工巧匠 大地使者"
+    ]
+  },
+  "36": {
+    "id": 36,
+    "lang": [
+      "Any Disciple of War (excluding gladiators)",
+      "剑术师之外的战斗精英"
+    ]
+  },
+  "37": {
+    "id": 37,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD WAR DRK",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 骑士 战士 暗黑骑士"
+    ]
+  },
+  "38": {
+    "id": 38,
+    "lang": [
+      "GLA PLD",
+      "剑术师 骑士"
+    ]
+  },
+  "39": {
+    "id": 39,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG PLD WAR DRK",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 骑士 战士 暗黑骑士"
+    ]
+  },
+  "40": {
+    "id": 40,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN MNK WAR DRG BRD NIN",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 武僧 战士 龙骑士 吟游诗人 忍者"
+    ]
+  },
+  "41": {
+    "id": 41,
+    "lang": [
+      "PGL MNK",
+      "格斗家 武僧"
+    ]
+  },
+  "42": {
+    "id": 42,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG MNK WAR DRG BRD NIN",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 武僧 战士 龙骑士 吟游诗人 忍者"
+    ]
+  },
+  "43": {
+    "id": 43,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD MNK WAR DRG DRK",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 骑士 武僧 战士 龙骑士 暗黑骑士"
+    ]
+  },
+  "44": {
+    "id": 44,
+    "lang": [
+      "MRD WAR",
+      "斧术师 战士"
+    ]
+  },
+  "45": {
+    "id": 45,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG PLD MNK WAR DRG DRK",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 骑士 武僧 战士 龙骑士 暗黑骑士"
+    ]
+  },
+  "46": {
+    "id": 46,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN MNK DRG BRD NIN MCH",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 武僧 龙骑士 吟游诗人 忍者 机工士"
+    ]
+  },
+  "47": {
+    "id": 47,
+    "lang": [
+      "LNC DRG",
+      "枪术师 龙骑士"
+    ]
+  },
+  "48": {
+    "id": 48,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG MNK DRG BRD NIN MCH",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 武僧 龙骑士 吟游诗人 忍者 机工士"
+    ]
+  },
+  "49": {
+    "id": 49,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN BRD BLM SMN MCH",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 吟游诗人 黑魔法师 召唤师 机工士"
+    ]
+  },
+  "50": {
+    "id": 50,
+    "lang": [
+      "ARC BRD",
+      "弓箭手 吟游诗人"
+    ]
+  },
+  "51": {
+    "id": 51,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG BRD MCH",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 吟游诗人 机工士"
+    ]
+  },
+  "52": {
+    "id": 52,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD WHM SCH AST",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 骑士 白魔法师 学者 占星术士"
+    ]
+  },
+  "53": {
+    "id": 53,
+    "lang": [
+      "CNJ WHM",
+      "幻术师 白魔法师"
+    ]
+  },
+  "54": {
+    "id": 54,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN WHM BLM SMN SCH AST",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 白魔法师 黑魔法师 召唤师 学者 占星术士"
+    ]
+  },
+  "55": {
+    "id": 55,
+    "lang": [
+      "THM BLM",
+      "咒术师 黑魔法师"
+    ]
+  },
+  "56": {
+    "id": 56,
+    "lang": [
+      "GLA CNJ THM PLD WHM BLM",
+      "剑术师 幻术师 咒术师 骑士 白魔法师 黑魔法师"
+    ]
+  },
+  "57": {
+    "id": 57,
+    "lang": [
+      "GLA THM PLD BLM",
+      "剑术师 咒术师 骑士 黑魔法师"
+    ]
+  },
+  "58": {
+    "id": 58,
+    "lang": [
+      "GLA CNJ PLD WHM",
+      "剑术师 幻术师 骑士 白魔法师"
+    ]
+  },
+  "59": {
+    "id": 59,
+    "lang": [
+      "GLA MRD PLD WAR DRK GNB",
+      "剑术师 斧术师 骑士 战士 暗黑骑士 绝枪战士"
+    ]
+  },
+  "60": {
+    "id": 60,
+    "lang": [
+      "GLA MRD LNC PLD WAR DRG DRK GNB",
+      "剑术师 斧术师 枪术师 骑士 战士 龙骑士 暗黑骑士 绝枪战士"
+    ]
+  },
+  "61": {
+    "id": 61,
+    "lang": [
+      "CNJ THM ACN WHM SCH AST",
+      "幻术师 咒术师 秘术师 白魔法师 学者 占星术士"
+    ]
+  },
+  "62": {
+    "id": 62,
+    "lang": [
+      "CNJ THM ACN WHM BLM SMN SCH AST",
+      "幻术师 咒术师 秘术师 白魔法师 黑魔法师 召唤师 学者 占星术士"
+    ]
+  },
+  "63": {
+    "id": 63,
+    "lang": [
+      "THM ACN BLM SMN RDM BLU",
+      "咒术师 秘术师 黑魔法师 召唤师 赤魔法师 青魔法师"
+    ]
+  },
+  "64": {
+    "id": 64,
+    "lang": [
+      "CNJ WHM SCH AST",
+      "幻术师 白魔法师 学者 占星术士"
+    ]
+  },
+  "65": {
+    "id": 65,
+    "lang": [
+      "PGL MNK SAM",
+      "格斗家 武僧 武士"
+    ]
+  },
+  "66": {
+    "id": 66,
+    "lang": [
+      "ARC BRD MCH DNC",
+      "弓箭手 吟游诗人 机工士 舞者"
+    ]
+  },
+  "67": {
+    "id": 67,
+    "lang": [
+      "GLA PGL MRD LNC ROG MNK DRG NIN",
+      "剑术师 格斗家 斧术师 枪术师 双剑师 武僧 龙骑士 忍者"
+    ]
+  },
+  "68": {
+    "id": 68,
+    "lang": [
+      "ACN SMN SCH",
+      "秘术师 召唤师 学者"
+    ]
+  },
+  "69": {
+    "id": 69,
+    "lang": [
+      "ACN SMN",
+      "秘术师 召唤师"
+    ]
+  },
+  "70": {
+    "id": 70,
+    "lang": [
+      "Any Disciple of the Hand (excluding culinarians)",
+      "烹调师之外的能工巧匠"
+    ]
+  },
+  "71": {
+    "id": 71,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG CNJ THM ACN WHM BLM SMN SCH",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 幻术师 咒术师 秘术师 白魔法师 黑魔法师 召唤师 学者"
+    ]
+  },
+  "72": {
+    "id": 72,
+    "lang": [
+      "CNJ THM ACN WHM BLM SMN SCH",
+      "幻术师 咒术师 秘术师 白魔法师 黑魔法师 召唤师 学者"
+    ]
+  },
+  "73": {
+    "id": 73,
+    "lang": [
+      "CNJ WHM SCH AST",
+      "幻术师 白魔法师 学者 占星术士"
+    ]
+  },
+  "74": {
+    "id": 74,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "75": {
+    "id": 75,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "76": {
+    "id": 76,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "77": {
+    "id": 77,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "78": {
+    "id": 78,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "79": {
+    "id": 79,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "80": {
+    "id": 80,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "81": {
+    "id": 81,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "82": {
+    "id": 82,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "83": {
+    "id": 83,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "84": {
+    "id": 84,
+    "lang": [
+      "PGL LNC MNK DRG SAM",
+      "格斗家 枪术师 武僧 龙骑士 武士"
+    ]
+  },
+  "85": {
+    "id": 85,
+    "lang": [
+      "Jobs of the Disciples of War or Magic",
+      "战斗精英 魔法导师 特职专用"
+    ]
+  },
+  "86": {
+    "id": 86,
+    "lang": [
+      "PLD WAR DRK GNB MNK DRG NIN SAM",
+      "骑士 战士 暗黑骑士 绝枪战士 武僧 龙骑士 忍者 武士"
+    ]
+  },
+  "87": {
+    "id": 87,
+    "lang": [
+      "BRD MCH DNC BLM SMN RDM WHM SCH AST",
+      "吟游诗人 机工士 舞者 黑魔法师 召唤师 赤魔法师 白魔法师 学者 占星术士"
+    ]
+  },
+  "88": {
+    "id": 88,
+    "lang": [
+      "GLA MRD PGL LNC ARC ROG PLD MNK WAR DRG BRD NIN MCH",
+      "剑术师 斧术师 格斗家 枪术师 弓箭手 双剑师 骑士 武僧 战士 龙骑士 吟游诗人 忍者 暗黑骑士 机工士"
+    ]
+  },
+  "89": {
+    "id": 89,
+    "lang": [
+      "BLM SMN RDM",
+      "黑魔法师 召唤师 赤魔法师"
+    ]
+  },
+  "90": {
+    "id": 90,
+    "lang": [
+      "ARC CNJ THM ACN WHM BRD BLM SMN SCH MCH AST",
+      "弓箭手 幻术师 咒术师 秘术师 白魔法师 吟游诗人 黑魔法师 召唤师 学者 机工士 占星术士"
+    ]
+  },
+  "91": {
+    "id": 91,
+    "lang": [
+      "ROG",
+      "双剑师"
+    ]
+  },
+  "92": {
+    "id": 92,
+    "lang": [
+      "NIN",
+      "忍者"
+    ]
+  },
+  "93": {
+    "id": 93,
+    "lang": [
+      "ROG NIN",
+      "双剑师  忍者"
+    ]
+  },
+  "94": {
+    "id": 94,
+    "lang": [
+      "GLA PGL MRD LNC ARC ROG NIN",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 忍者"
+    ]
+  },
+  "95": {
+    "id": 95,
+    "lang": [
+      "GLA PGL MRD LNC ROG NIN",
+      "剑术师 格斗家 斧术师 枪术师 双剑师 忍者"
+    ]
+  },
+  "96": {
+    "id": 96,
+    "lang": [
+      "MCH",
+      "机工士"
+    ]
+  },
+  "97": {
+    "id": 97,
+    "lang": [
+      "PGL LNC ARC ROG MNK DRG BRD NIN MCH",
+      "格斗家 枪术师 弓箭手 双剑师 武僧 龙骑士 吟游诗人 忍者 机工士"
+    ]
+  },
+  "98": {
+    "id": 98,
+    "lang": [
+      "DRK",
+      "暗黑骑士"
+    ]
+  },
+  "99": {
+    "id": 99,
+    "lang": [
+      "AST",
+      "占星术士"
+    ]
+  },
+  "100": {
+    "id": 100,
+    "lang": [
+      "ARC ROG BRD NIN MCH",
+      "弓箭手 双剑师 吟游诗人 忍者 机工士"
+    ]
+  },
+  "101": {
+    "id": 101,
+    "lang": [
+      "PGL LNC ROG MNK DRG NIN",
+      "格斗家 枪术师 双剑师 武僧 龙骑士 忍者"
+    ]
+  },
+  "102": {
+    "id": 102,
+    "lang": [
+      "PGL ROG MNK NIN SAM",
+      "格斗家 双剑师 武僧 忍者 武士"
+    ]
+  },
+  "103": {
+    "id": 103,
+    "lang": [
+      "ROG NIN",
+      "双剑师  忍者"
+    ]
+  },
+  "104": {
+    "id": 104,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "105": {
+    "id": 105,
+    "lang": [
+      "ARC ROG BRD NIN MCH DNC",
+      "弓箭手 双剑师 吟游诗人 忍者 机工士 舞者"
+    ]
+  },
+  "106": {
+    "id": 106,
+    "lang": [
+      "GLA MRD PGL LNC ARC ROG BRD",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 双剑师 吟游诗人"
+    ]
+  },
+  "107": {
+    "id": 107,
+    "lang": [
+      "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
+      "骑士 武僧 战士 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 忍者 机工士 暗黑骑士 占星术士"
+    ]
+  },
+  "108": {
+    "id": 108,
+    "lang": [
+      "Disciples of War or Magic",
+      "战斗精英 魔法导师"
+    ]
+  },
+  "109": {
+    "id": 109,
+    "lang": [
+      "",
+      ""
+    ]
+  },
+  "110": {
+    "id": 110,
+    "lang": [
+      "Jobs of the Disciples of War or Magic",
+      "战斗精英 魔法导师 特职专用"
+    ]
+  },
+  "111": {
+    "id": 111,
+    "lang": [
+      "SAM",
+      "武士"
+    ]
+  },
+  "112": {
+    "id": 112,
+    "lang": [
+      "RDM",
+      "赤魔法师"
+    ]
+  },
+  "113": {
+    "id": 113,
+    "lang": [
+      "GLA MRD PLD WAR DRK GNB",
+      "剑术师 斧术师 骑士 战士 暗黑骑士 绝枪战士"
+    ]
+  },
+  "114": {
+    "id": 114,
+    "lang": [
+      "PGL LNC ROG MNK DRG NIN SAM",
+      "格斗家 枪术师 武僧 龙骑士 双剑师 忍者 武士"
+    ]
+  },
+  "115": {
+    "id": 115,
+    "lang": [
+      "ARC BRD MCH DNC",
+      "弓箭手 吟游诗人 机工士 舞者"
+    ]
+  },
+  "116": {
+    "id": 116,
+    "lang": [
+      "THM ACN BLM SMN RDM BLU",
+      "咒术师 黑魔法师 秘术师 召唤师 赤魔法师 青魔法师"
+    ]
+  },
+  "117": {
+    "id": 117,
+    "lang": [
+      "CNJ WHM SCH AST",
+      "幻术师 白魔法师 学者 占星术士"
+    ]
+  },
+  "118": {
+    "id": 118,
+    "lang": [
+      "PGL LNC ARC ROG MNK DRG BRD NIN MCH SAM DNC",
+      "格斗家 枪术师 弓箭手 武僧 龙骑士 吟游诗人 双剑师 忍者 机工士 武士 舞者"
+    ]
+  },
+  "119": {
+    "id": 119,
+    "lang": [
+      "PGL LNC THM ACN ROG MNK DRG BLM SMN NIN SAM RDM BLU",
+      "格斗家 枪术师 咒术师 武僧 龙骑士 黑魔法师 秘术师 召唤师 双剑师 忍者 武士 赤魔法师 青魔法师"
+    ]
+  },
+  "120": {
+    "id": 120,
+    "lang": [
+      "CNJ THM ACN WHM BLM SMN SCH AST RDM BLU",
+      "幻术师 咒术师 白魔法师 黑魔法师 秘术师 召唤师 学者 占星术士 赤魔法师 青魔法师"
+    ]
+  },
+  "121": {
+    "id": 121,
+    "lang": [
+      "PLD WAR DRK GNB",
+      "骑士 战士 暗黑骑士 绝枪战士"
+    ]
+  },
+  "122": {
+    "id": 122,
+    "lang": [
+      "MNK DRG NIN SAM",
+      "武僧 龙骑士 忍者 武士"
+    ]
+  },
+  "123": {
+    "id": 123,
+    "lang": [
+      "BRD MCH DNC",
+      "吟游诗人 机工士 舞者"
+    ]
+  },
+  "124": {
+    "id": 124,
+    "lang": [
+      "BLM SMN RDM BLU",
+      "黑魔法师 召唤师 赤魔法师 青魔法师"
+    ]
+  },
+  "125": {
+    "id": 125,
+    "lang": [
+      "WHM SCH AST",
+      "白魔法师 学者 占星术士"
+    ]
+  },
+  "126": {
+    "id": 126,
+    "lang": [
+      "MNK DRG BRD NIN MCH SAM DNC",
+      "武僧 龙骑士 吟游诗人 忍者 机工士 武士 舞者"
+    ]
+  },
+  "127": {
+    "id": 127,
+    "lang": [
+      "MNK DRG BLM SMN NIN SAM RDM BLU",
+      "武僧 龙骑士 黑魔法师 召唤师 忍者 武士 赤魔法师 青魔法师"
+    ]
+  },
+  "128": {
+    "id": 128,
+    "lang": [
+      "WHM BLM SMN SCH AST RDM BLU",
+      "白魔法师 黑魔法师 召唤师 学者 占星术士 赤魔法师 青魔法师"
+    ]
+  },
+  "129": {
+    "id": 129,
+    "lang": [
+      "BLU",
+      "青魔法师"
+    ]
+  },
+  "130": {
+    "id": 130,
+    "lang": [
+      "All classes and jobs (excluding limited jobs)",
+      "所有（除设限特职）"
+    ]
+  },
+  "131": {
+    "id": 131,
+    "lang": [
+      "MNK DRG BRD BLM SMN NIN MCH SAM RDM DNC",
+      "武僧 龙骑士 吟游诗人 黑魔法师 召唤师 忍者 机工士 武士 赤魔法师 舞者"
+    ]
+  },
+  "132": {
+    "id": 132,
+    "lang": [
+      "MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC",
+      "武僧 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 忍者 机工士 占星术士 武士 赤魔法师 舞者"
+    ]
+  },
+  "133": {
+    "id": 133,
+    "lang": [
+      "WHM SCH AST",
+      "白魔法师 学者 占星术士"
+    ]
+  },
+  "134": {
+    "id": 134,
+    "lang": [
+      "PLD WAR DRK GNB",
+      "骑士 战士 暗黑骑士 绝枪战士"
+    ]
+  },
+  "135": {
+    "id": 135,
+    "lang": [
+      "PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 黑魔法师 召唤师 忍者 机工士 暗黑骑士 武士 赤魔法师 绝枪战士 舞者"
+    ]
+  },
+  "136": {
+    "id": 136,
+    "lang": [
+      "PLD WAR WHM SCH DRK AST GNB",
+      "骑士 战士 白魔法师 学者 暗黑骑士 占星术士 绝枪战士"
+    ]
+  },
+  "137": {
+    "id": 137,
+    "lang": [
+      "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 忍者 机工士 暗黑骑士 占星术士 武士 赤魔法师 绝枪战士 舞者"
+    ]
+  },
+  "138": {
+    "id": 138,
+    "lang": [
+      "PLD MNK WAR DRG NIN DRK SAM GNB",
+      "骑士 武僧 战士 龙骑士 忍者 暗黑骑士 武士 绝枪战士"
+    ]
+  },
+  "139": {
+    "id": 139,
+    "lang": [
+      "BRD MCH DNC",
+      "吟游诗人 机工士 舞者"
+    ]
+  },
+  "140": {
+    "id": 140,
+    "lang": [
+      "WHM BLM SMN SCH AST RDM",
+      "白魔法师 黑魔法师 召唤师 学者 占星术士 赤魔法师"
+    ]
+  },
+  "141": {
+    "id": 141,
+    "lang": [
+      "PLD MNK WAR DRG BRD WHM BLM SMN SCH MCH DRK AST SAM RDM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 机工士 暗黑骑士 占星术士 武士 赤魔法师 绝枪战士 舞者"
+    ]
+  },
+  "142": {
+    "id": 142,
+    "lang": [
+      "Any Disciple of War or Magic (excluding limited jobs)",
+      "战斗精英和魔法导师（除设限特职）"
+    ]
+  },
+  "143": {
+    "id": 143,
+    "lang": [
+      "Disciples of War (excluding limited jobs)",
+      "战斗精英（除设限特职）"
+    ]
+  },
+  "144": {
+    "id": 144,
+    "lang": [
+      "Any Disciple of Magic (excluding limited jobs)",
+      "魔法导师（除设限特职）"
+    ]
+  },
+  "145": {
+    "id": 145,
+    "lang": [
+      "PLD MNK WAR DRG BRD NIN MCH DRK SAM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 忍者 机工士 暗黑骑士 武士 绝枪战士 舞者"
+    ]
+  },
+  "146": {
+    "id": 146,
+    "lang": [
+      "Any job of the Disciples of War or Magic (excluding limited jobs)",
+      "战斗精英 魔法导师 特职专用（除设限特职）"
+    ]
+  },
+  "147": {
+    "id": 147,
+    "lang": [
+      "BLM SMN RDM",
+      "黑魔法师 召唤师 赤魔法师"
+    ]
+  },
+  "148": {
+    "id": 148,
+    "lang": [
+      "MNK DRG NIN SAM",
+      "武僧 龙骑士 忍者 武士"
+    ]
+  },
+  "149": {
+    "id": 149,
+    "lang": [
+      "GNB",
+      "绝枪战士"
+    ]
+  },
+  "150": {
+    "id": 150,
+    "lang": [
+      "DNC",
+      "舞者"
+    ]
+  },
+  "151": {
+    "id": 151,
+    "lang": [
+      "Facet of Forging (BSM, ARM, GSM)",
+      "金属工艺（锻铁匠、铸甲匠、雕金匠）"
+    ]
+  },
+  "152": {
+    "id": 152,
+    "lang": [
+      "Facet of Crafting (CRP, LTW, WVR)",
+      "手工工艺（刻木匠、制革匠、裁衣匠）"
+    ]
+  },
+  "153": {
+    "id": 153,
+    "lang": [
+      "Facet of Nourishing (ALC, CUL)",
+      "食药工艺（炼金术士、烹调师）"
+    ]
+  },
+  "154": {
+    "id": 154,
+    "lang": [
+      "Facet of Gathering (MIN, BTN)",
+      "大地资源（采矿工、园艺工）"
+    ]
+  },
+  "155": {
+    "id": 155,
+    "lang": [
+      "Facet of Fishing (FSH)",
+      "水生资源（捕鱼人）"
+    ]
+  },
+  "156": {
+    "id": 156,
+    "lang": [
+      "Tank (excluding limited jobs)",
+      "防护职业（设限特职除外）"
+    ]
+  },
+  "157": {
+    "id": 157,
+    "lang": [
+      "Healer (excluding limited jobs)",
+      "治疗职业（设限特职除外）"
+    ]
+  },
+  "158": {
+    "id": 158,
+    "lang": [
+      "Physical DPS (excluding limited jobs)",
+      "物理进攻职业（设限特职除外）"
+    ]
+  },
+  "159": {
+    "id": 159,
+    "lang": [
+      "Magical DPS (excluding limited jobs)",
+      "魔法进攻职业（设限特职除外）"
+    ]
+  },
+  "160": {
+    "id": 160,
+    "lang": [
+      "ACN SCH",
+      "秘术师 学者"
+    ]
+  },
+  "161": {
+    "id": 161,
+    "lang": [
+      "GLA PGL MRD LNC ARC PLD MNK WAR DRG BRD ROG NIN MCH DRK SAM GNB DNC",
+      "剑术师 格斗家 斧术师 枪术师 弓箭手 骑士 武僧 战士 龙骑士 吟游诗人 双剑师 忍者 机工士 暗黑骑士 武士 绝枪战士 舞者"
+    ]
+  },
+  "162": {
+    "id": 162,
+    "lang": [
+      "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 <br>忍者 机工士 暗黑骑士 占星术士 武士 赤魔法师 绝枪战士 舞者"
+    ]
+  },
+  "163": {
+    "id": 163,
+    "lang": [
+      "MNK DRG BRD BLM SMN NIN MCH SAM RDM DNC",
+      "武僧 龙骑士 吟游诗人 黑魔法师 召唤师 忍者 机工士 武士 赤魔法师 舞者"
+    ]
+  },
+  "164": {
+    "id": 164,
+    "lang": [
+      "MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC",
+      "武僧 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 忍者 机工士 占星术士 武士 赤魔法师 舞者"
+    ]
+  },
+  "165": {
+    "id": 165,
+    "lang": [
+      "WHM SCH AST",
+      "白魔法师 学者 占星术士"
+    ]
+  },
+  "166": {
+    "id": 166,
+    "lang": [
+      "PLD WAR DRK GNB",
+      "骑士 战士 暗黑骑士 绝枪战士"
+    ]
+  },
+  "167": {
+    "id": 167,
+    "lang": [
+      "PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 黑魔法师 召唤师 忍者 机工士 暗黑骑士 武士 赤魔法师 绝枪战士 舞者"
+    ]
+  },
+  "168": {
+    "id": 168,
+    "lang": [
+      "PLD WAR WHM SCH DRK AST GNB",
+      "骑士 战士 白魔法师 学者 暗黑骑士 占星术士 绝枪战士"
+    ]
+  },
+  "169": {
+    "id": 169,
+    "lang": [
+      "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 忍者 机工士 暗黑骑士 占星术士 武士 赤魔法师 绝枪战士 舞者"
+    ]
+  },
+  "170": {
+    "id": 170,
+    "lang": [
+      "PLD MNK WAR DRG NIN DRK SAM GNB",
+      "ナイト モンク 戦士 竜騎士 忍者 暗黒騎士 侍 ガンブレイカー"
+    ]
+  },
+  "171": {
+    "id": 171,
+    "lang": [
+      "BRD MCH DNC",
+      "吟游诗人 机工士 舞者"
+    ]
+  },
+  "172": {
+    "id": 172,
+    "lang": [
+      "WHM BLM SMN SCH AST RDM",
+      "白魔法师 黑魔法师 召唤师 学者 占星术士 赤魔法师"
+    ]
+  },
+  "173": {
+    "id": 173,
+    "lang": [
+      "PLD MNK WAR DRG BRD WHM BLM SMN SCH MCH DRK AST SAM RDM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 白魔法师 黑魔法师 召唤师 学者 机工士 暗黑骑士 占星术士 武士 赤魔法师 绝枪战士 舞者"
+    ]
+  },
+  "174": {
+    "id": 174,
+    "lang": [
+      "PLD MNK WAR DRG BRD NIN MCH DRK SAM GNB DNC",
+      "骑士 武僧 战士 龙骑士 吟游诗人 忍者 机工士 暗黑骑士 武士 绝枪战士 舞者"
+    ]
+  },
+  "175": {
+    "id": 175,
+    "lang": [
+      "BLM SMN RDM",
+      "黑魔法师 召唤师 赤魔法师"
+    ]
+  },
+  "176": {
+    "id": 176,
+    "lang": [
+      "MNK DRG NIN SAM",
+      "武僧 龙骑士 忍者 武士"
+    ]
+  },
+  "177": {
+    "id": 177,
+    "lang": [
+      "MNK DRG BRD NIN MCH SAM DNC",
+      "武僧 龙骑士 吟游诗人 忍者 机工士 武士 舞者"
+    ]
+  },
+  "178": {
+    "id": 178,
+    "lang": [
+      "PLD WAR BLM SMN DRK RDM GNB",
+      "ナイト 戦士 黒魔道士 召喚士 暗黒騎士 赤魔道士 ガンブレイカー"
+    ]
+  },
+  "179": {
+    "id": 179,
+    "lang": [
+      "WHM SMN SCH AST RDM",
+      "白魔法师 召唤师 学者 占星术士 赤魔法师"
+    ]
+  }
+}
