@@ -51,43 +51,6 @@ import dragoonFilledIcon from "assets/icon/dragoon_filled.png";
 import ninjaIcon from "assets/icon/ninja.png";
 import ninjaFilledIcon from "assets/icon/ninja_filled.png";
 
-/* class job icon */
-/* {TankIcons.map(({ Icon, id }) => (
-  <button key={id} className=" focus:outline-none" onClick={() => setCurrentJob(id)}>
-    <Icon
-      className={`${
-        currentJob === id
-          ? "text-yellow border-yellow border-2 bg-blue"
-          : ""
-      } w-8 h-8 fill-current rounded-md hover:text-yellow`}
-    />
-    <span className="hidden">{classjob.get(id)!.ab[2]}</span>
-  </button>
-))} */
-/* {HealerIcons.map(({ Icon, id }) => (
-  <button key={id} className=" focus:outline-none" onClick={() => setCurrentJob(id)}>
-    <Icon
-      className={`${
-        currentJob === id
-          ? "text-yellow border-yellow border-2 bg-green"
-          : ""
-      } w-8 h-8 fill-current rounded-md hover:text-yellow`}
-    />
-    <span className="hidden">{classjob.get(id)!.ab[2]}</span>
-  </button>
-))} */
-/* {DpsIcons.map(({ Icon, id }) => (
-            <button key={id} className="focus:outline-none" onClick={() => setCurrentJob(id)}>
-              <Icon
-                className={`${
-                  currentJob === id
-                    ? "text-yellow border-yellow border-2 bg-red"
-                    : ""
-                } w-8 h-8 fill-current  rounded-md hover:text-yellow`}
-              />
-              <span className="hidden">{classjob.get(id)!.ab[2]}</span>
-            </button>
-          ))} */
 export {
   UpIcon, BottomIcon,
   ArmouryHead, ArmouryHands, ArmouryBody, ArmouryWaist, ArmouryLegs, ArmouryFeet, ArmouryEarrings, ArmouryNecklace, ArmouryBracelets, ArmouryRing, ArmouryMainArm, ArmourySubArm,

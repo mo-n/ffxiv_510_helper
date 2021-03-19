@@ -1,4 +1,5 @@
 import { action, makeAutoObservable, observable } from "mobx";
+import { Job } from "data/classjob";
 
 enum Slot {
   Head = 3,
@@ -60,39 +61,60 @@ const slotInfo: Map<Slot, SlotInfo> = new Map([
 
 class Store {
   armorys: Map<Suit, SuitList> = new Map();
+  arms: Map<Job, number> = new Map();
 
   text = 1;
 
   constructor() {
     this.armorysInit();
+    this.armsInit();
     makeAutoObservable(this, {
       armorys: observable,
       armorysClear: action,
       addArmory: action,
       setArmor: action,
+      arms: observable,
+      setArms: action,
+      armsClear: action,
       text: observable,
       addText: action,
     });
   }
 
   private armorysInit() {
-    const _armorys: Map<Suit, SuitList> = new Map();
-    for (const _suit in Suit) {
-      const armory: Map<Slot, number> = new Map();
-      for (const _slot in Slot) {
-        armory.set(Number(_slot), 0);
+    Object.keys(Suit).forEach((k) => {
+      const _suit = Suit[k as any];
+      if (typeof _suit === "number") {
+        const armory: Map<Slot, number> = new Map();
+
+        for (const _k in Slot) {
+          const _slot = Slot[_k as any];
+          if (typeof _slot === "number") {
+            armory.set(_slot, 0);
+          }
+        }
+        this.armorys.set(_suit, armory);
       }
-      _armorys.set(Number(_suit), armory);
-    }
-    this.armorys = _armorys;
+    });
   }
 
-  getArmor(job: Suit, slot: Slot) {
-    const _armory = this.armorys.get(job)!;
+  private armsInit() {
+    Object.keys(Job).forEach((k) => {
+      const _job = Job[k as any];
+
+      if (typeof _job === "number") {
+        this.arms.set(_job, 0);
+      }
+    });
+  }
+
+  getArmor(suit: Suit, slot: Slot) {
+    const _armory = this.armorys.get(suit)!;
     return _armory.get(slot);
   }
-  setArmor(job: Suit, slot: Slot, n: number) {
-    const _armory = this.armorys.get(job)!;
+
+  setArmor(suit: Suit, slot: Slot, n: number) {
+    const _armory = this.armorys.get(suit)!;
     _armory.set(slot, n);
   }
 
@@ -100,8 +122,8 @@ class Store {
     this.armorysInit();
   }
 
-  addArmory(job: Suit) {
-    const _armory = this.armorys.get(job)!;
+  addArmory(suit: Suit) {
+    const _armory = this.armorys.get(suit)!;
     _armory.forEach((value, key) => {
       const _val = _armory.get(key)!;
 
@@ -110,9 +132,17 @@ class Store {
     });
   }
 
+  setArms(job: Job, val: number) {
+    this.arms.set(job, val);
+  }
+
+  armsClear() {
+    this.armsInit();
+  }
+
   addText() {
     this.text += 1;
   }
 }
 
-export { Slot, Store, Suit as JobList, suitInfo, slotInfo };
+export { Slot, Store, Suit, suitInfo, slotInfo };

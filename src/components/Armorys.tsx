@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import InputNumber from "rc-input-number";
-import { Slot, JobList, Store, suitInfo, slotInfo } from 'store';
+import { Slot, Suit, Store, suitInfo } from 'store';
 import {
   UpIcon, BottomIcon,
   ArmouryHead, ArmouryBody, ArmouryHands, ArmouryWaist, ArmouryLegs,
@@ -11,13 +11,13 @@ import {
 } from "components/Icons";
 
 const jobs = [
-  { id: JobList.Tank, icon: tankIcon, iconFilled: tankIconFilled },
-  { id: JobList.Healer, icon: healerIcon, iconFilled: healerIconFilled },
-  { id: JobList.DpsMagic, icon: dpsMagicIcon, iconFilled: dpsMagicIconFilled },
-  { id: JobList.Ranged, icon: rangedIcon, iconFilled: rangedIconFilled },
-  { id: JobList.MonkSamurai, icon: dpsMeleeIcon, iconFilled: dpsMeleeFilledIcon },
-  { id: JobList.Dragoon, icon: dragoonIcon, iconFilled: dragoonFilledIcon },
-  { id: JobList.Ninja, icon: ninjaIcon, iconFilled: ninjaFilledIcon },
+  { id: Suit.Tank, icon: tankIcon, iconFilled: tankIconFilled },
+  { id: Suit.Healer, icon: healerIcon, iconFilled: healerIconFilled },
+  { id: Suit.DpsMagic, icon: dpsMagicIcon, iconFilled: dpsMagicIconFilled },
+  { id: Suit.Ranged, icon: rangedIcon, iconFilled: rangedIconFilled },
+  { id: Suit.MonkSamurai, icon: dpsMeleeIcon, iconFilled: dpsMeleeFilledIcon },
+  { id: Suit.Dragoon, icon: dragoonIcon, iconFilled: dragoonFilledIcon },
+  { id: Suit.Ninja, icon: ninjaIcon, iconFilled: ninjaFilledIcon },
 ];
 
 const armoryChests = [
@@ -40,7 +40,7 @@ interface Props {
 function Armorys(props: Props) {
   const store = props.store;
 
-  const [currentJob, setCurrentJob] = useState(JobList.Tank);
+  const [currentJob, setCurrentJob] = useState(Suit.Tank);
   const [hover, sethover] = useState(new Array(7).fill(false));
 
   return (
