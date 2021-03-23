@@ -1,4 +1,419 @@
 {
+  "32934": {
+    "rid": [
+      "34576"
+    ],
+    "id": 32934,
+    "lang": [
+      "シルバービーチ材",
+      "Silver Beech Lumber",
+      "银山毛榉木材"
+    ],
+    "icon": 22460,
+    "ilv": 510,
+    "uc": 50,
+    "sc": 49,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32935": {
+    "rid": [
+      "34577",
+      "34578"
+    ],
+    "id": 32935,
+    "lang": [
+      "ジュラルミンインゴット",
+      "Duraluminum Ingot",
+      "铝合金锭"
+    ],
+    "icon": 20802,
+    "ilv": 510,
+    "uc": 49,
+    "sc": 48,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32936": {
+    "rid": [
+      "34579"
+    ],
+    "id": 32936,
+    "lang": [
+      "白夜結晶板",
+      "Solstice Ingot",
+      "白夜结晶板"
+    ],
+    "icon": 20974,
+    "ilv": 510,
+    "uc": 48,
+    "sc": 47,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32937": {
+    "rid": [
+      "34580"
+    ],
+    "id": 32937,
+    "lang": [
+      "クチナシ染め布",
+      "Saffron Cloth",
+      "栀子染布"
+    ],
+    "icon": 21623,
+    "ilv": 510,
+    "uc": 51,
+    "sc": 50,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32938": {
+    "rid": [
+      "34581"
+    ],
+    "id": 32938,
+    "lang": [
+      "ティラコレオレザー",
+      "Thylacoleo Leather",
+      "袋狮革"
+    ],
+    "icon": 22016,
+    "ilv": 510,
+    "uc": 52,
+    "sc": 51,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32939": {
+    "rid": [
+      "34582"
+    ],
+    "id": 32939,
+    "lang": [
+      "剛力の幻水G4",
+      "Grade 4 Strength Alkahest",
+      "4级刚力之幻水"
+    ],
+    "icon": 22683,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32940": {
+    "rid": [
+      "34583"
+    ],
+    "id": 32940,
+    "lang": [
+      "眼力の幻水G4",
+      "Grade 4 Dexterity Alkahest",
+      "4级巧力之幻水"
+    ],
+    "icon": 22682,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32941": {
+    "rid": [
+      "34584"
+    ],
+    "id": 32941,
+    "lang": [
+      "活力の幻水G4",
+      "Grade 4 Vitality Alkahest",
+      "4级耐力之幻水"
+    ],
+    "icon": 22680,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32942": {
+    "rid": [
+      "34585"
+    ],
+    "id": 32942,
+    "lang": [
+      "知力の幻水G4",
+      "Grade 4 Intelligence Alkahest",
+      "4级智力之幻水"
+    ],
+    "icon": 22679,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32943": {
+    "rid": [
+      "34586"
+    ],
+    "id": 32943,
+    "lang": [
+      "心力の幻水G4",
+      "Grade 4 Mind Alkahest",
+      "4级意力之幻水"
+    ],
+    "icon": 22681,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32944": {
+    "id": 32944,
+    "lang": [
+      "ホーステール",
+      "Horsetail",
+      "马尾草"
+    ],
+    "icon": 26592,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": false,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32945": {
+    "id": 32945,
+    "lang": [
+      "軽銀鉱",
+      "Aluminum Ore",
+      "轻银矿"
+    ],
+    "icon": 21206,
+    "ilv": 510,
+    "uc": 48,
+    "sc": 47,
+    "hq": false,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32946": {
+    "id": 32946,
+    "lang": [
+      "奇人の研磨材",
+      "Workbench Refining Sand",
+      "奇人研磨材"
+    ],
+    "icon": 21001,
+    "ilv": 510,
+    "uc": 48,
+    "sc": 47,
+    "hq": false,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32947": {
+    "id": 32947,
+    "lang": [
+      "クチナシ",
+      "Gardenia Fruit",
+      "栀子"
+    ],
+    "icon": 25318,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": false,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32948": {
+    "id": 32948,
+    "lang": [
+      "ティラコレオの粗皮",
+      "Thylacoleo Skin",
+      "袋狮粗皮"
+    ],
+    "icon": 21815,
+    "ilv": 510,
+    "uc": 52,
+    "sc": 51,
+    "hq": false,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
+  "32949": {
+    "id": 32949,
+    "lang": [
+      "ソウルエキス",
+      "Spirit Extract",
+      "灵魂精华"
+    ],
+    "icon": 20675,
+    "ilv": 510,
+    "uc": 54,
+    "sc": 53,
+    "hq": false,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.4",
+    "bpm": [],
+    "actParm": []
+  },
   "32950": {
     "id": 32950,
     "lang": [
