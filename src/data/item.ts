@@ -1,7 +1,8 @@
 import garetingItemData from "./item.json";
 
-export type GaretingItemInfo = {
+export type ItemInfo = {
   id: number;
+  rid?: string[];
   lang: string[];
   icon: number;
   ilv: number;
@@ -17,15 +18,16 @@ export type GaretingItemInfo = {
   ms: number;
   jd: number;
   p: string;
-  bpm: [];
-  actParm: [];
+  bpm: Array<Array<number>>;
+  spm: Array<Array<number>>;
+  actParm: Array<Array<number>>;
 };
 
-const garetingItem: Map<number, GaretingItemInfo> = new Map();
+const item: Map<number, ItemInfo> = new Map();
 
 Object.keys(garetingItemData).forEach((k) => {
   const point = (garetingItemData as any)[k];
-  garetingItem.set(Number(k), point);
+  item.set(Number(k), point);
 });
 
-export default garetingItem;
+export default item;

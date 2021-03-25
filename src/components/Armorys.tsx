@@ -1,13 +1,33 @@
 import React, { useState } from "react";
 import InputNumber from "rc-input-number";
-import { Slot, Suit, Store, suitInfo } from 'store';
+import { Slot, Suit, Store, suitInfo } from "store";
 import {
-  UpIcon, BottomIcon,
-  ArmouryHead, ArmouryBody, ArmouryHands, ArmouryWaist, ArmouryLegs,
-    ArmouryFeet, ArmouryEarrings, ArmouryNecklace, ArmouryRing, ArmouryBracelets,
-  tankIcon, tankIconFilled, healerIcon, healerIconFilled, dpsMagicIcon,
-    dpsMagicIconFilled, rangedIcon, rangedIconFilled, dpsMeleeIcon,
-    dpsMeleeFilledIcon, dragoonIcon, dragoonFilledIcon, ninjaIcon, ninjaFilledIcon,
+  UpIcon,
+  BottomIcon,
+  ArmouryHead,
+  ArmouryBody,
+  ArmouryHands,
+  ArmouryWaist,
+  ArmouryLegs,
+  ArmouryFeet,
+  ArmouryEarrings,
+  ArmouryNecklace,
+  ArmouryRing,
+  ArmouryBracelets,
+  tankIcon,
+  tankIconFilled,
+  healerIcon,
+  healerIconFilled,
+  dpsMagicIcon,
+  dpsMagicIconFilled,
+  rangedIcon,
+  rangedIconFilled,
+  dpsMeleeIcon,
+  dpsMeleeFilledIcon,
+  dragoonIcon,
+  dragoonFilledIcon,
+  ninjaIcon,
+  ninjaFilledIcon,
 } from "components/Icons";
 
 const jobs = [
@@ -42,6 +62,14 @@ function Armorys(props: Props) {
 
   const [currentJob, setCurrentJob] = useState(Suit.Tank);
   const [hover, sethover] = useState(new Array(7).fill(false));
+
+  function addSuit(suit: Suit) {
+    armoryChests.forEach(({ id }) => {
+      const armor = store.getArmor(suit, id)!;
+      if (id === Slot.ring) store.setArmor(suit, id, armor + 2);
+      else store.setArmor(suit, id, armor + 1);
+    });
+  }
 
   return (
     <div className="w-96 bg-white">
@@ -89,19 +117,26 @@ function Armorys(props: Props) {
                   downHandler={<BottomIcon className="w-4" />}
                   step={1}
                   onChange={(val) => {
-                    store.setArmor(currentJob, id, val)
+                    store.setArmor(currentJob, id, val);
                   }}
                 />
               </div>
             );
           })}
           <div className="flex-1 text-sm order-10 text-center">
-            <button onClick={() => store.armorysClear()} className="h-8 w-24 ml-2 mx-auto bg-indigo-600 text-white rounded-md focus:outline-none">
+            <button
+              // onClick={() => store.armorsClear()}
+              onClick={() => console.log(store.crafts)}
+              className="h-8 w-24 ml-2 mx-auto bg-indigo-600 text-white rounded-md focus:outline-none"
+            >
               清空
             </button>
           </div>
           <div className="flex-1 text-sm order-12 text-center">
-            <button onClick={() => store.addArmory(currentJob)} className="h-8 w-24 ml-2 bg-indigo-600 text-white rounded-md focus:outline-none">
+            <button
+              onClick={() => addSuit(currentJob)}
+              className="h-8 w-24 ml-2 bg-indigo-600 text-white rounded-md focus:outline-none"
+            >
               添加整套
             </button>
           </div>

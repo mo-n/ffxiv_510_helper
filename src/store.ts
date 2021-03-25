@@ -1,5 +1,8 @@
-import { action, makeAutoObservable, observable } from "mobx";
+import { action, makeAutoObservable, observable, computed } from "mobx";
+import Gears from "data/gears";
 import { Job } from "data/classjob";
+import Recipe from "data/recipe";
+import itemInfo from "data/item";
 
 enum Slot {
   Head = 3,
@@ -30,8 +33,8 @@ interface SuitInfo {
 }
 
 interface SlotInfo {
-  uc: string;
-  sc: string;
+  uc: number;
+  sc: number;
 }
 
 type SuitList = Map<Slot, number>;
@@ -47,41 +50,45 @@ const suitInfo: Map<Suit, SuitInfo> = new Map([
 ]);
 
 const slotInfo: Map<Slot, SlotInfo> = new Map([
-  [Slot.Head, { uc: "34", sc: "31" }],
-  [Slot.Body, { uc: "35", sc: "33" }],
-  [Slot.Hands, { uc: "37", sc: "36" }],
-  [Slot.Waist, { uc: "39", sc: "38" }],
-  [Slot.Legs, { uc: "36", sc: "35" }],
-  [Slot.Feet, { uc: "35", sc: "37" }],
-  [Slot.Earrings, { uc: "41", sc: "40" }],
-  [Slot.Necklace, { uc: "40", sc: "39" }],
-  [Slot.Bracelets, { uc: "42", sc: "41" }],
-  [Slot.ring, { uc: "43", sc: "42" }],
+  [Slot.Head, { uc: 34, sc: 31 }],
+  [Slot.Body, { uc: 35, sc: 33 }],
+  [Slot.Hands, { uc: 37, sc: 36 }],
+  [Slot.Waist, { uc: 39, sc: 38 }],
+  [Slot.Legs, { uc: 36, sc: 35 }],
+  [Slot.Feet, { uc: 38, sc: 37 }],
+  [Slot.Earrings, { uc: 41, sc: 40 }],
+  [Slot.Necklace, { uc: 40, sc: 39 }],
+  [Slot.Bracelets, { uc: 42, sc: 41 }],
+  [Slot.ring, { uc: 43, sc: 42 }],
 ]);
 
-class Store {
-  armorys: Map<Suit, SuitList> = new Map();
-  arms: Map<Job, number> = new Map();
+type Id = number
 
-  text = 1;
+class Store {
+  // 防
+  armors: Map<Suit, SuitList> = new Map();
+  // 武
+  arms: Map<Job, number> = new Map();
+  // 兵<id,number>
+  armorys: Map<Id, number> = new Map();
 
   constructor() {
-    this.armorysInit();
+    this.armorsInit();
     this.armsInit();
     makeAutoObservable(this, {
-      armorys: observable,
-      armorysClear: action,
-      addArmory: action,
+      armors: observable,
+      armorsClear: action,
       setArmor: action,
       arms: observable,
       setArms: action,
       armsClear: action,
-      text: observable,
-      addText: action,
+      armorys: observable,
+      setArmorys: action,
+      crafts: computed, // 半成品
     });
   }
 
-  private armorysInit() {
+  private armorsInit() {
     Object.keys(Suit).forEach((k) => {
       const _suit = Suit[k as any];
       if (typeof _suit === "number") {
@@ -93,9 +100,41 @@ class Store {
             armory.set(_slot, 0);
           }
         }
-        this.armorys.set(_suit, armory);
+        this.armors.set(_suit, armory);
       }
     });
+  }
+  getArmor(suit: Suit, slot: Slot) {
+    const _armory = this.armors.get(suit)!;
+    return _armory.get(slot);
+  }
+
+  setArmor(suit: Suit, slot: Slot, n: number) {
+    const _armory = this.armors.get(suit)!;
+    _armory.set(slot, n);
+
+    const { classjobcategory } = suitInfo.get(suit)!;
+    const { uc, sc } = slotInfo.get(slot)!;
+    const gears = Gears.search(classjobcategory, uc, sc);
+
+    this.setArmorys(gears!.id, n);
+  }
+
+  setArmorys(id: number, num: number) {
+    this.armorys.set(id, num);
+  }
+
+  armorsClear() {
+    this.armorsInit();
+
+    for (const id of this.armorys.keys()) {
+      const gear = Gears.get(id)!;
+      for (const slot of slotInfo.values()) {
+        if (slot.sc === gear.sc || slot.uc === gear.uc) {
+          this.armorys.delete(id);
+        }
+      }
+    }
   }
 
   private armsInit() {
@@ -108,40 +147,46 @@ class Store {
     });
   }
 
-  getArmor(suit: Suit, slot: Slot) {
-    const _armory = this.armorys.get(suit)!;
-    return _armory.get(slot);
-  }
-
-  setArmor(suit: Suit, slot: Slot, n: number) {
-    const _armory = this.armorys.get(suit)!;
-    _armory.set(slot, n);
-  }
-
-  armorysClear() {
-    this.armorysInit();
-  }
-
-  addArmory(suit: Suit) {
-    const _armory = this.armorys.get(suit)!;
-    _armory.forEach((value, key) => {
-      const _val = _armory.get(key)!;
-
-      if (key === Slot.ring) _armory.set(key, _val + 2);
-      else _armory.set(key, _val + 1);
-    });
-  }
-
   setArms(job: Job, val: number) {
     this.arms.set(job, val);
+
+    const gear = Gears.searchJob(job);
+    gear?.forEach((id) => {
+      this.armorys.set(id, val);
+    });
   }
 
   armsClear() {
     this.armsInit();
+
+    Object.keys(Job).forEach((k) => {
+      const _job = Job[k as any];
+      if (typeof _job === "number") {
+        const gear = Gears.searchJob(_job);
+        gear?.forEach((id) => {
+          this.armorys.set(id, 0);
+        });
+      }
+    });
   }
 
-  addText() {
-    this.text += 1;
+  // 计算半成品
+  get crafts() {
+    const _crafts = new Map();
+    this.armorys.forEach((num, gearid) => {
+      const gear = Gears.get(gearid)!;
+      if (gear.rid && gear.rid[0]) {
+        const craft = Recipe.getCrafts(gear.rid[0]);
+        craft?.forEach(([id, n]) => {
+          const _n = n * num
+          const newNum = _crafts.get(id) ? _crafts.get(id) + _n : _n;
+          _crafts.set(id, newNum);
+        });
+      } else {
+        throw Error("not find rid");
+      }
+    });
+    return _crafts;
   }
 }
 

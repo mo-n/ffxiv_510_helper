@@ -8,7 +8,6 @@ enum Job {
   BRD = 23,
   WHM = 24,
   BLM = 25,
-  ACN = 26,
   SMN = 27,
   SCH = 28,
   NIN = 30,
