@@ -1,8 +1,8 @@
 import { action, makeAutoObservable, observable, computed } from "mobx";
-import Gears from "data/gears";
-import { Job } from "data/classjob";
-import Recipe from "data/recipe";
-import itemInfo from "data/item";
+import Gears from "utils/gears";
+import { Job } from "utils/classjob";
+import Recipe from "utils/recipe";
+import itemInfo from "utils/item";
 
 enum Slot {
   Head = 3,
@@ -176,10 +176,9 @@ class Store {
     this.armorys.forEach((num, gearid) => {
       const gear = Gears.get(gearid)!;
       if (gear.rid && gear.rid[0]) {
-        const craft = Recipe.getCrafts(gear.rid[0]);
+        const craft = Recipe.getCrafts(gear.rid[0], num);
         craft?.forEach(([id, n]) => {
-          const _n = n * num
-          const newNum = _crafts.get(id) ? _crafts.get(id) + _n : _n;
+          const newNum = _crafts.get(id) ? _crafts.get(id): n;
           _crafts.set(id, newNum);
         });
       } else {

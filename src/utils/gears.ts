@@ -1,6 +1,6 @@
 import gearsData from 'data/gears.json';
 import { ItemInfo } from './item';
-import { Job } from 'data/classjob';
+import { Job } from './classjob';
 
 const gearsItem: Map<number, ItemInfo> = new Map();
 Object.keys(gearsData).forEach((k) => {

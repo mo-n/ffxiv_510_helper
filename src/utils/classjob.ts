@@ -1,4 +1,4 @@
-import classjobData from "./classjob.json";
+import classjobData from "data/classjob.json";
 
 enum Job {
   PLD = 19,

@@ -1,6 +1,6 @@
 import React from "react";
 import { Store } from "store";
-import { Job } from "data/classjob";
+import { Job } from "utils/classjob";
 import {
   ClassJob19,
   ClassJob20,

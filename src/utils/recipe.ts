@@ -1,4 +1,4 @@
-import recipeData from "./recipe.json";
+import recipeData from "data/recipe.json";
 
 export interface RecipeInfo {
   id: number;
@@ -16,19 +16,19 @@ Object.keys(recipeData).forEach((k) => {
 });
 
 class Recipe {
-  static getCrafts(id: string) {
+  static getAll() {
+    return recipes;
+  }
+  
+  static getCrafts(id: string, num=1) {
     const recipe = recipes.get(id);
     if (recipe) {
       const recipeList:Array<Array<number>> = [];
       for (let index = 0; index < recipe.m.length; index += 2) {
-        recipeList.push([recipe.m[index], recipe.m[index + 1]]);
+        recipeList.push([recipe.m[index], recipe.m[index + 1] * num]);
       }
       return recipeList;
     }
-  }
-
-  static getAll() {
-    return recipes;
   }
 }
 

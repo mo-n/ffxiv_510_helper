@@ -1,4 +1,4 @@
-import garetingItemData from "./item.json";
+import garetingItemData from "data/item.json";
 
 export type ItemInfo = {
   id: number;

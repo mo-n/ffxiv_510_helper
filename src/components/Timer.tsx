@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import gatheringPotin, { GatheringPotinInfo } from "data/gathering-point";
-import item from "data/item";
-import ezClock from "data/eorzeaclock";
+import gatheringPotin, { GatheringPotinInfo } from "utils/gathering-point";
+import item from "utils/item";
+import ezClock from "utils/eorzeaclock";
 
 function getViewInfo() {
   const garertingList: Array<GatheringPotinInfo> = [];

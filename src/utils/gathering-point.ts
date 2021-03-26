@@ -1,4 +1,4 @@
-import gatheringPotinData from "./gathering-point.json";
+import gatheringPotinData from "data/gathering-point.json";
 
 export type GatheringPotinInfo = {
   id: number;
