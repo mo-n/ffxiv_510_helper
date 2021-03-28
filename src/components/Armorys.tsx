@@ -72,7 +72,7 @@ function Armorys(props: Props) {
   }
 
   return (
-    <div className="w-96 bg-white">
+    <div className="bg-white">
       <div className="text-center py-1 text-lg border-gray-300 border-solid border-b">
         防具：{suitInfo.get(currentJob)!.name}
       </div>
@@ -125,8 +125,7 @@ function Armorys(props: Props) {
           })}
           <div className="flex-1 text-sm order-10 text-center">
             <button
-              // onClick={() => store.armorsClear()}
-              onClick={() => console.log(store.crafts)}
+              onClick={() => store.armorsClear()}
               className="h-8 w-24 ml-2 mx-auto bg-indigo-600 text-white rounded-md focus:outline-none"
             >
               清空

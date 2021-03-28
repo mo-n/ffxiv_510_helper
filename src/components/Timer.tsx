@@ -19,6 +19,7 @@ function getViewInfo() {
     eztimeStr: eztime.getHourMinuteString(),
     currentPoint: garertingList[current],
     currentGathering: item.get(garertingList[current].item[0]),
+    currentTime: [hour, hour + 2],
     nextPoint: garertingList[next],
     nextGathering: item.get(garertingList[next].item[0]),
   };
@@ -39,15 +40,30 @@ function Timer() {
 
   return (
     <div className="bg-white py-2 px-2">
-      <div className="text-3xl font-semibold text-black">ET {view.eztimeStr}</div>
       <div>
-        <div className="text-base text-rose-400">
-          <span className="pr-2">{view.currentGathering!.lang[2]}</span>
-          <span>{`${view.currentPoint.area} (${view.currentPoint.coords[0]}, ${view.currentPoint.coords[1]})`}</span>
+        <div className="mb-1 py-1">
+          <span className="text-4xl font-bold pr-2">
+            {view.currentGathering!.lang[2]}
+          </span>
+          <span className="text-sm align-bottom">
+            ET {view.eztimeStr}
+          </span>
+        </div>
+        <div>
+          <span>{view.currentPoint.area}</span>
+          <span>
+            -
+            {`${view.currentPoint.lang[2]} (${view.currentPoint.coords[0]}, ${view.currentPoint.coords[1]})`}
+          </span>
         </div>
         <div className="text-sm text-gray-500">
-          <span className="pr-2">{view.nextGathering!.lang[2]}</span>
-          <span>{`${view.nextPoint.area} (${view.nextPoint.coords[0]}, ${view.nextPoint.coords[1]})`}</span>
+          <span className="pr-2">{`${view.currentTime[1]}:00`}</span>
+          <span>{view.nextGathering!.lang[2]}</span>
+          <span>-{view.nextPoint.area}</span>
+          <span>
+            -
+            {`${view.nextPoint.lang[2]} (${view.nextPoint.coords[0]}, ${view.nextPoint.coords[1]})`}
+          </span>
         </div>
       </div>
     </div>

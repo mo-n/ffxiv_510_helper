@@ -37,6 +37,11 @@ interface SlotInfo {
   sc: number;
 }
 
+export interface Craft {
+  amount: number;
+  parent: Set<number>;
+}
+
 type SuitList = Map<Slot, number>;
 
 const suitInfo: Map<Suit, SuitInfo> = new Map([
@@ -62,7 +67,7 @@ const slotInfo: Map<Slot, SlotInfo> = new Map([
   [Slot.ring, { uc: 43, sc: 42 }],
 ]);
 
-type Id = number
+type Id = number;
 
 class Store {
   // 防
@@ -164,7 +169,7 @@ class Store {
       if (typeof _job === "number") {
         const gear = Gears.searchJob(_job);
         gear?.forEach((id) => {
-          this.armorys.set(id, 0);
+          this.armorys.delete(id);
         });
       }
     });
@@ -172,14 +177,24 @@ class Store {
 
   // 计算半成品
   get crafts() {
-    const _crafts = new Map();
+    const _crafts: Map<number, Craft> = new Map();
     this.armorys.forEach((num, gearid) => {
       const gear = Gears.get(gearid)!;
       if (gear.rid && gear.rid[0]) {
         const craft = Recipe.getCrafts(gear.rid[0], num);
-        craft?.forEach(([id, n]) => {
-          const newNum = _crafts.get(id) ? _crafts.get(id): n;
-          _crafts.set(id, newNum);
+        craft?.forEach(([id, amount]) => {
+          const _item = _crafts.get(id)
+          if (_item) {
+            _item.parent.add(gearid);
+            _item.amount += amount
+          } else {
+            _crafts.set(id, {
+              parent: new Set([gearid]),
+              amount,
+            })
+          }
+        
+          
         });
       } else {
         throw Error("not find rid");
