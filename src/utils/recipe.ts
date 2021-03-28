@@ -19,7 +19,7 @@ class Recipe {
   static getAll() {
     return recipes;
   }
-  
+
   static getCrafts(id: string, num=1) {
     const recipe = recipes.get(id);
     if (recipe) {
