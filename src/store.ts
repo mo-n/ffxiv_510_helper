@@ -70,11 +70,11 @@ const slotInfo: Map<Slot, SlotInfo> = new Map([
 type Id = number;
 
 class Store {
-  // 防
+  // 防<职业组, 位置>
   armors: Map<Suit, SuitList> = new Map();
-  // 武
+  // 武器<职业，数量>
   arms: Map<Job, number> = new Map();
-  // 兵<id,number>
+  // 兵装库<装备id,数量>
   armorys: Map<Id, number> = new Map();
 
   constructor() {
@@ -90,6 +90,7 @@ class Store {
       armorys: observable,
       setArmorys: action,
       crafts: computed, // 半成品
+      rawMaterial: computed, // 原料
     });
   }
 
@@ -126,7 +127,11 @@ class Store {
   }
 
   setArmorys(id: number, num: number) {
-    this.armorys.set(id, num);
+    if (num <= 0) {
+      this.armorys.delete(id);
+    } else {
+      this.armorys.set(id, num);
+    }
   }
 
   armorsClear() {
@@ -157,7 +162,7 @@ class Store {
 
     const gear = Gears.searchJob(job);
     gear?.forEach((id) => {
-      this.armorys.set(id, val);
+      this.setArmorys(id, val);
     });
   }
 
@@ -177,30 +182,42 @@ class Store {
 
   // 计算半成品
   get crafts() {
-    const _crafts: Map<number, Craft> = new Map();
+    let _crafts: Map<number, Craft> = new Map();
     this.armorys.forEach((num, gearid) => {
       const gear = Gears.get(gearid)!;
       if (gear.rid && gear.rid[0]) {
-        const craft = Recipe.getCrafts(gear.rid[0], num);
-        craft?.forEach(([id, amount]) => {
-          const _item = _crafts.get(id)
-          if (_item) {
-            _item.parent.add(gearid);
-            _item.amount += amount
-          } else {
-            _crafts.set(id, {
-              parent: new Set([gearid]),
-              amount,
-            })
-          }
-        
-          
-        });
+        const craft = Recipe.getMaterial(gear.rid[0], num);
+        _crafts = Recipe.mergeMaterial(_crafts, craft);
       } else {
         throw Error("not find rid");
       }
     });
     return _crafts;
+  }
+
+  // 计算原料
+  get rawMaterial() {
+    let crafts = new Map(this.crafts);
+    const materia: Map<number, Craft> = new Map();
+
+    while (true) {
+      if (crafts.size === 0) {
+        break;
+      }
+      let _crafts: Map<number, Craft> = new Map()
+      for (const [id, craft] of crafts.entries()) {
+        const item = itemInfo.get(id)!;
+        if (!item.rid) {
+          materia.set(id, craft);
+        } else {
+          const newRecipe = Recipe.getMaterial(item.rid[0], craft.amount);
+          _crafts = Recipe.mergeMaterial(_crafts, newRecipe);
+        }
+        crafts.delete(id);
+      }
+      crafts = Recipe.mergeMaterial(crafts, _crafts);
+    }
+    return materia;
   }
 }
 
