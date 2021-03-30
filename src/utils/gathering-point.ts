@@ -1,6 +1,6 @@
-import gatheringPotinData from "data/gathering-point.json";
+import gatheringPointData from "data/gathering-point.json";
 
-export type GatheringPotinInfo = {
+export type GatheringPointInfo = {
   id: number;
   areaid: number;
   area: string;
@@ -10,11 +10,11 @@ export type GatheringPotinInfo = {
   item: Array<number>;
 };
 
-const gatheringPotin: Map<number, GatheringPotinInfo> = new Map();
+const gatheringPoint: Map<number, GatheringPointInfo> = new Map();
 
-Object.keys(gatheringPotinData).forEach((k) => {
-  const point = (gatheringPotinData as any)[k];
-  gatheringPotin.set(Number(k), point);
+Object.keys(gatheringPointData).forEach((k) => {
+  const point = (gatheringPointData as any)[k];
+  gatheringPoint.set(Number(k), point);
 });
 
-export default gatheringPotin;
+export default gatheringPoint;

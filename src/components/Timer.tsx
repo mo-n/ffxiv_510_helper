@@ -1,36 +1,56 @@
 import React, { useState, useEffect } from "react";
-import gatheringPotin, { GatheringPotinInfo } from "utils/gathering-point";
+import gatheringpoint, { GatheringPointInfo } from "utils/gathering-point";
 import item from "utils/item";
 import ezClock from "utils/eorzeaclock";
+import EorzeClock from "utils/eorzeaclock";
 
-function getViewInfo() {
-  const garertingList: Array<GatheringPotinInfo> = [];
+const garertingList: Array<GatheringPointInfo> = [];
+  Array.from(gatheringpoint.values()).forEach((point) => {
+  garertingList[point.time[0] / 2] = point;
+  garertingList[point.time[1] / 2] = point;
+});
+
+console.log(garertingList)
+
+function getViewInfo() {  
   const eztime = new ezClock();
   const hour = eztime.getHours();
 
-  Array.from(gatheringPotin.values()).forEach((point) => {
-    garertingList[point.time[0] / 2] = point;
-    garertingList[point.time[1] / 2] = point;
-  });
-
   const current = Math.floor(hour / 2);
   const next = current >= 11 ? 0 : current + 1;
+  
+  const endtime:ezClock = eztime.setHours(current * 2 + 2);
+
   return {
-    eztimeStr: eztime.getHourMinuteString(),
-    currentPoint: garertingList[current],
-    currentGathering: item.get(garertingList[current].item[0]),
-    currentTime: [hour, hour + 2],
-    nextPoint: garertingList[next],
-    nextGathering: item.get(garertingList[next].item[0]),
+    endtime,
+    current,
+    next,
   };
 }
 
+function getcountdown(endtime:ezClock) {
+  const eztime = new ezClock();
+  return new Date(
+    endtime.getEarthTime().getTime() - eztime.getEarthTime().getTime())
+}
+
 function Timer() {
-  const [view, setView] = useState(getViewInfo);
+  const [viewInfo, setView] = useState(getViewInfo);
+  const {endtime, current, next } = viewInfo;
+
+  const [countdown, setCountdown] = useState(getcountdown(endtime));
 
   useEffect(() => {
     const _timer = setInterval(() => {
-      setView(getViewInfo);
+      const seconds = countdown.getSeconds()
+      console.log(new ezClock())
+      if (countdown.getTime() <= 0) {
+        const viewInfo = getViewInfo();
+        setView(viewInfo)
+        setCountdown(getcountdown(viewInfo.endtime))
+      } else {
+        setCountdown(new Date(countdown.setSeconds(seconds-1)))
+      }
     }, 1000);
 
     return () => {
@@ -38,31 +58,35 @@ function Timer() {
     };
   }, []);
 
+  const currentPoint = garertingList[current],
+    currentItem = item.get(currentPoint.item[0]),
+    nextPoint = garertingList[next],
+    nextItem = item.get(nextPoint.item[0]);
+
   return (
-    <div className="py-2 px-2">
+    <div className="py-4 px-4">
       <div>
         <div className="mb-1 py-1">
-          <span className="text-4xl font-bold pr-2">
-            {view.currentGathering!.lang[2]}
+          <span className="text-3xl font-bold pr-2">
+            {currentItem?.lang[2]}
           </span>
-          <span className="text-sm align-bottom">
-            ET {view.eztimeStr}
+          <span className="text-base align-bottom">
+            {EorzeClock.getMinuteSecondsString(countdown)}
           </span>
         </div>
         <div>
-          <span>{view.currentPoint.area}</span>
+          <span>{currentPoint.area}</span>
           <span>
             -
-            {`${view.currentPoint.lang[2]} (${view.currentPoint.coords[0]}, ${view.currentPoint.coords[1]})`}
+            {`${currentPoint.lang[2]} (${currentPoint.coords[0]}, ${currentPoint.coords[1]})`}
           </span>
         </div>
         <div className="text-sm text-gray-500">
-          <span className="pr-2">{`${view.currentTime[1]}:00`}</span>
-          <span>{view.nextGathering!.lang[2]}</span>
-          <span>-{view.nextPoint.area}</span>
+          <span>{nextItem?.lang[2]}</span>
+          <span>-{nextPoint.area}</span>
           <span>
             -
-            {`${view.nextPoint.lang[2]} (${view.nextPoint.coords[0]}, ${view.nextPoint.coords[1]})`}
+            {`${nextPoint.lang[2]} (${nextPoint.coords[0]}, ${nextPoint.coords[1]})`}
           </span>
         </div>
       </div>
