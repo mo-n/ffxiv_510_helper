@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <main className="max-w-5xl mt-8 m-auto">
-        <div className="grid auto-rows-ma grid-cols-3 justify-items-center grid-flow-col gap-3 auto-cols-fr">
+        <div className="grid auto-rows-max grid-cols-3 justify-items-center grid-flow-col gap-3 auto-cols-fr">
           <div className="w-full rounded shadow bg-white">
             <Timer />
           </div>

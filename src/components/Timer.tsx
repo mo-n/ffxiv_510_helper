@@ -10,8 +10,6 @@ const garertingList: Array<GatheringPointInfo> = [];
   garertingList[point.time[1] / 2] = point;
 });
 
-console.log(garertingList)
-
 function getViewInfo() {  
   const eztime = new ezClock();
   const hour = eztime.getHours();
@@ -43,7 +41,7 @@ function Timer() {
   useEffect(() => {
     const _timer = setInterval(() => {
       const seconds = countdown.getSeconds()
-      console.log(new ezClock())
+
       if (countdown.getTime() <= 0) {
         const viewInfo = getViewInfo();
         setView(viewInfo)
@@ -56,7 +54,7 @@ function Timer() {
     return () => {
       clearInterval(_timer);
     };
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const currentPoint = garertingList[current],
     currentItem = item.get(currentPoint.item[0]),

@@ -106,7 +106,7 @@ function Armorys(props: Props) {
           {armoryChests.map(({ Icon, id, order }) => {
             return (
               <div className={`flex flex-1 order-${order}`} key={id}>
-                <Icon className="w-8 h-8 mr-2" />
+                <Icon className="w-8 h-8 mr-2 rounded-md fill-current" />
                 <InputNumber
                   className="w-24"
                   min={0}
