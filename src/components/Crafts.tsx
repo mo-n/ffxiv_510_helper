@@ -9,7 +9,7 @@ interface Props {
 function Crafts(props: Props) {
   const { list } = props;
   return (
-    <div className="bg-white px-6">
+    <div className="px-6">
       <div className="text-center py-1 text-lg border-gray-300 border-solid border-b">
         半成品
       </div>
@@ -33,7 +33,7 @@ function Crafts(props: Props) {
                 <AppItem key={id} id={id} craft={craft} />
               ))}
           </ol>
-          <ol className="border-solid border-b">
+          <ol>
             {Array.from(list)
               .filter(
                 ([id]) => itemInfo.get(id)?.rid && id > 32938 && id < 32944

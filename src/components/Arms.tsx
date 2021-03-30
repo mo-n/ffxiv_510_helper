@@ -86,7 +86,7 @@ function Arm(props: Props) {
   const store = props.store;
 
   return (
-    <div className="bg-white">
+    <div>
       <div className="text-center py-1 mb-4 text-lg border-gray-300 border-solid border-b">
         武器
       </div>

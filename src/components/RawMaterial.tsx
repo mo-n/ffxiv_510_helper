@@ -7,7 +7,7 @@ interface Props {
 function RawMaterial(props: Props) {
   const { list } = props;
   return (
-    <div className="bg-white px-6">
+    <div className="px-6">
       <div className="text-center py-1 text-lg border-gray-300 border-solid border-b">
         材料
       </div>

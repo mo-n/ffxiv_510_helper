@@ -39,7 +39,7 @@ function Timer() {
   }, []);
 
   return (
-    <div className="bg-white py-2 px-2">
+    <div className="py-2 px-2">
       <div>
         <div className="mb-1 py-1">
           <span className="text-4xl font-bold pr-2">

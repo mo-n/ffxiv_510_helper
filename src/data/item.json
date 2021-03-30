@@ -279,6 +279,186 @@
     "bpm": [],
     "actParm": []
   },
+  "27772": {
+    "rid": [
+      "3863"
+    ],
+    "id": 27772,
+    "lang": [
+      "マナシルバーエンチャントインク",
+      "Enchanted Manasilver Ink",
+      "魔银附魔墨水"
+    ],
+    "icon": 25923,
+    "ilv": 403,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
+  "27773": {
+    "id": 27773,
+    "lang": [
+      "ヴァンパイアカップのつる",
+      "Vampire Cup Vine",
+      "吸血草杯的卷须"
+    ],
+    "icon": 21662,
+    "ilv": 406,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
+  "27774": {
+    "id": 27774,
+    "lang": [
+      "ヴァンパイアヴァインの樹液",
+      "Vampire Vine Sap",
+      "吸血藤的树汁"
+    ],
+    "icon": 22643,
+    "ilv": 406,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
+  "27775": {
+    "rid": [
+      "3864"
+    ],
+    "id": 27775,
+    "lang": [
+      "植物性にかわ",
+      "Starch Glue",
+      "植物胶"
+    ],
+    "icon": 22607,
+    "ilv": 406,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
+  "27776": {
+    "id": 27776,
+    "lang": [
+      "強ソーダ水",
+      "Extra Effervescent Water",
+      "强发泡水"
+    ],
+    "icon": 22678,
+    "ilv": 409,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
+  "27777": {
+    "rid": [
+      "3865"
+    ],
+    "id": 27777,
+    "lang": [
+      "強重曹",
+      "Refined Natron",
+      "强泡碱"
+    ],
+    "icon": 22616,
+    "ilv": 409,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
+  "27778": {
+    "rid": [
+      "3866"
+    ],
+    "id": 27778,
+    "lang": [
+      "グロースフォーミュラ・カッパ",
+      "Growth Formula Kappa",
+      "植物成长剂10型"
+    ],
+    "icon": 22663,
+    "ilv": 409,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
   "27779": {
     "id": 27779,
     "lang": [
@@ -288,6 +468,30 @@
     ],
     "icon": 22627,
     "ilv": 409,
+    "uc": 54,
+    "sc": 53,
+    "hq": true,
+    "dye": false,
+    "act": 0,
+    "bon": 0,
+    "reduce": false,
+    "elv": 1,
+    "jobs": 0,
+    "ms": 0,
+    "jd": 0,
+    "p": "5.0",
+    "bpm": [],
+    "actParm": []
+  },
+  "27780": {
+    "id": 27780,
+    "lang": [
+      "ピナータラベンダー",
+      "Fernleaf Lavender",
+      "邪衣薰衣草"
+    ],
+    "icon": 25002,
+    "ilv": 412,
     "uc": 54,
     "sc": 53,
     "hq": true,

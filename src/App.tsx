@@ -6,6 +6,7 @@ import Timer from "components/Timer";
 import Armorys from "components/Armorys";
 import Arms from "components/Arms";
 import Crafts from "components/Crafts";
+import RawMaterial from "components/RawMaterial";
 
 import "./App.css";
 import "assets/number.css";
@@ -18,26 +19,26 @@ function App() {
 
   return (
     <div className="App">
-      <main className="grid grid-cols-4 gap-4">
-        <div className="w-96 col-start-2 col-end-5">
-          <Timer />
+      <main className="max-w-5xl mt-8 m-auto">
+        <div className="grid auto-rows-ma grid-cols-3 justify-items-center grid-flow-col gap-3 auto-cols-fr">
+          <div className="w-full rounded shadow bg-white">
+            <Timer />
+          </div>
+          <div className="w-full rounded shadow bg-white">
+            <Armorys store={store} />
+          </div>
+          <div className="w-full rounded shadow bg-white">
+            <Arms store={store} />
+          </div>
+          {/* 半成品 */}
+          <div className="w-full rounded shadow row-span-3 bg-white">
+            <Crafts list={store.crafts} />
+          </div>
+          {/* 列表 */}
+          <div className="w-full rounded shadow row-span-3 bg-white">
+            <RawMaterial list={store.rawMaterial}/>
+          </div>
         </div>
-        <div className="w-96 col-start-2">
-          <Armorys store={store} />
-        </div>
-        {/* 半成品 */}
-        <div className="w-96 col-start-3 row-span-3 col-end-5">
-          <Crafts list={store.crafts} />
-        </div>
-        <div className="w-96 col-start-2">
-          <Arms store={store} />
-        </div>
-        {/* 采集材料 */}
-        <div>
-
-        </div>
-        {/* 列表 */}
-        <div></div>
       </main>
     </div>
   );

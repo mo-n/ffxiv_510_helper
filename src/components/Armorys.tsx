@@ -72,7 +72,7 @@ function Armorys(props: Props) {
   }
 
   return (
-    <div className="bg-white">
+    <div>
       <div className="text-center py-1 text-lg border-gray-300 border-solid border-b">
         防具：{suitInfo.get(currentJob)!.name}
       </div>
