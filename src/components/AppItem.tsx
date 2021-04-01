@@ -13,12 +13,12 @@ function AppItem(props: AppItemProps) {
   const name = itemInfo.get(id)!.lang[2];
   const amount = craft.amount;
   return (
-    <li className="flex justify-around py-2 px-2">
+    <div className="flex justify-around py-1 px-2">
       <div className="flex-1 cursor-pointer">
         <Copy text={name}>{name}</Copy>
       </div>
-      <div className="">{amount}</div>
-    </li>
+      <div>{amount}</div>
+    </div>
   );
 }
 
