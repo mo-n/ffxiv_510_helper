@@ -83,8 +83,10 @@ class Store {
     makeAutoObservable(this, {
       armors: observable,
       armorsClear: action,
+      armorsSize: computed,
       setArmor: action,
       arms: observable,
+      armsSize: computed,
       setArms: action,
       armsClear: action,
       armorys: observable,
@@ -114,7 +116,11 @@ class Store {
     const _armory = this.armors.get(suit)!;
     return _armory.get(slot);
   }
-
+  get armorsSize() {
+    return Array.from(this.armors.values()).reduce(((previous, current) => {
+      return previous + Array.from(current.values()).reduce((_p, _c) => _p + _c)
+    }), 0)
+  }
   setArmor(suit: Suit, slot: Slot, n: number) {
     const _armory = this.armors.get(suit)!;
     _armory.set(slot, n);
@@ -155,6 +161,12 @@ class Store {
         this.arms.set(_job, 0);
       }
     });
+  }
+
+  get armsSize() {
+    return Array.from(this.arms.values()).reduce((accumulator, currentValue) => 
+      accumulator + currentValue
+    )
   }
 
   setArms(job: Job, val: number) {

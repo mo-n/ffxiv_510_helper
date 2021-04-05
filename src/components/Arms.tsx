@@ -99,8 +99,9 @@ function Arm(props: Props) {
             onChange={(val) => store.setArms(id, val)}
           >
             <Icon
+              onClick={() => store.setArms(id, store.arms.get(id)! + 1)}
               className={
-                "w-8 h-8 mr-1 fill-current rounded-md bg-blue text-yellow border-yellow border-2"
+                "cursor-pointer select-none w-8 h-8 mr-1 fill-current rounded-md bg-blue text-yellow border-yellow border-2"
               }
             ></Icon>
           </NumberInputGroup>
@@ -113,8 +114,9 @@ function Arm(props: Props) {
             onChange={(val) => store.setArms(id, val)}
           >
             <Icon
+              onClick={() => store.setArms(id, store.arms.get(id)! + 1)}
               className={
-                "w-8 h-8 mr-1 fill-current rounded-md bg-green text-yellow border-yellow border-2"
+                "cursor-pointer select-none w-8 h-8 mr-1 fill-current rounded-md bg-green text-yellow border-yellow border-2"
               }
             ></Icon>
           </NumberInputGroup>
@@ -127,8 +129,9 @@ function Arm(props: Props) {
             onChange={(val) => store.setArms(id, val)}
           >
             <Icon
+              onClick={() => store.setArms(id, store.arms.get(id)! + 1)}
               className={
-                "w-8 h-8 mr-1 fill-current rounded-md bg-red text-yellow border-yellow border-2"
+                "cursor-pointer select-none w-8 h-8 mr-1 fill-current rounded-md bg-red text-yellow border-yellow border-2"
               }
             ></Icon>
           </NumberInputGroup>
@@ -138,7 +141,7 @@ function Arm(props: Props) {
             onClick={() => store.armsClear()}
             className="h-8 w-36 ml-2 bg-indigo-600 text-white rounded-md focus:outline-none"
           >
-            清空
+            清空{store.armsSize === 0 ? '' : `（ ${store.armsSize} ）`}
           </button>
         </div>
       </div>

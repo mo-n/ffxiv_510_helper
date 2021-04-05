@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import InputNumber from "rc-input-number";
+import throttle from "lodash/throttle";
 import { Slot, Suit, Store, suitInfo } from "store";
 import {
   UpIcon,
@@ -63,13 +64,19 @@ function Armorys(props: Props) {
   const [currentJob, setCurrentJob] = useState(Suit.Tank);
   const [hover, sethover] = useState(new Array(7).fill(false));
 
-  function addSuit(suit: Suit) {
+  function addSuit() {
+    const suit = currentJob
     armoryChests.forEach(({ id }) => {
       const armor = store.getArmor(suit, id)!;
       if (id === Slot.ring) store.setArmor(suit, id, armor + 2);
       else store.setArmor(suit, id, armor + 1);
     });
   }
+
+  const addSuitHandle = throttle(() => {
+    console.log(123)
+    addSuit()
+  }, 3000, { 'trailing': false })
 
   return (
     <div>
@@ -108,7 +115,7 @@ function Armorys(props: Props) {
               <div className={`flex flex-1 order-${order}`} key={id}>
                 <Icon className="w-8 h-8 mr-2 rounded-md fill-current" />
                 <InputNumber
-                  className="w-24"
+                  className="w-20"
                   min={0}
                   max={99}
                   defaultValue={0}
@@ -126,15 +133,15 @@ function Armorys(props: Props) {
           <div className="flex-1 text-sm order-10 text-center">
             <button
               onClick={() => store.armorsClear()}
-              className="h-8 w-24 ml-2 mx-auto bg-indigo-600 text-white rounded-md focus:outline-none"
+              className="h-8 w-28 ml-2 mx-auto bg-indigo-600 text-white rounded-md focus:outline-none"
             >
-              清空
+              清空 ( {store.armorsSize} )
             </button>
           </div>
           <div className="flex-1 text-sm order-12 text-center">
             <button
-              onClick={() => addSuit(currentJob)}
-              className="h-8 w-24 ml-2 bg-indigo-600 text-white rounded-md focus:outline-none"
+              onClick={addSuitHandle}
+              className="h-8 w-28 ml-2 bg-indigo-600 text-white rounded-md focus:outline-none"
             >
               添加整套
             </button>

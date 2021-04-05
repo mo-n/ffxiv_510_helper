@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import gatheringpoint, { GatheringPointInfo } from "utils/gathering-point";
+import Copy from "components/Copy";
 import item from "utils/item";
 import ezClock from "utils/eorzeaclock";
 import EorzeClock from "utils/eorzeaclock";
@@ -16,7 +17,7 @@ function getViewInfo() {
 
   const current = Math.floor(hour / 2);
   const next = current >= 11 ? 0 : current + 1;
-  
+
   const endtime:ezClock = eztime.setHours(current * 2 + 2);
 
   return {
@@ -65,8 +66,8 @@ function Timer() {
     <div className="py-4 px-4">
       <div>
         <div className="mb-1 py-1">
-          <span className="text-3xl font-bold pr-2">
-            {currentItem?.lang[2]}
+          <span className="text-3xl font-bold pr-2 inline-block cursor-pointer">
+            <Copy text={currentItem?.lang[2]}>{currentItem?.lang[2]}</Copy>
           </span>
           <span className="text-base align-bottom">
             {EorzeClock.getMinuteSecondsString(countdown)}

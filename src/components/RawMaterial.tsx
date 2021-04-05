@@ -23,7 +23,7 @@ function RawMaterial(props: Props) {
   return (
     <div className="px-6">
       <div className="text-center py-1 text-lg border-gray-300 border-solid border-b">
-        材料
+        其他材料
       </div>
       <div className="border-solid border-b">
         {
