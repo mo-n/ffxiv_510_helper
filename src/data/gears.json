@@ -7,7 +7,7 @@
     "lang": [
       "エクサークソード",
       "Exarchic Sword",
-      ""
+      "总督长剑"
     ],
     "icon": 30630,
     "ilv": 510,
@@ -67,7 +67,7 @@
     "lang": [
       "エクサークバグナウ",
       "Exarchic Baghnakhs",
-      ""
+      "总督虎爪"
     ],
     "icon": 31195,
     "ilv": 510,
@@ -127,7 +127,7 @@
     "lang": [
       "エクサークアクス",
       "Exarchic Axe",
-      ""
+      "总督大斧"
     ],
     "icon": 31205,
     "ilv": 510,
@@ -187,7 +187,7 @@
     "lang": [
       "エクサークスピア",
       "Exarchic Spear",
-      ""
+      "总督长枪"
     ],
     "icon": 31607,
     "ilv": 510,
@@ -247,7 +247,7 @@
     "lang": [
       "エクサークロングボウ",
       "Exarchic Longbow",
-      ""
+      "总督长弓"
     ],
     "icon": 32394,
     "ilv": 510,
@@ -307,7 +307,7 @@
     "lang": [
       "エクサークダガー",
       "Exarchic Daggers",
-      ""
+      "总督小刀"
     ],
     "icon": 33981,
     "ilv": 510,
@@ -367,7 +367,7 @@
     "lang": [
       "エクサークディバイダー",
       "Exarchic Guillotine",
-      ""
+      "总督断头剑"
     ],
     "icon": 34359,
     "ilv": 510,
@@ -427,7 +427,7 @@
     "lang": [
       "エクサークハンドゴンネ",
       "Exarchic Handgonne",
-      ""
+      "总督手炮"
     ],
     "icon": 34405,
     "ilv": 510,
@@ -487,7 +487,7 @@
     "lang": [
       "エクサークケーン",
       "Exarchic Cane",
-      ""
+      "总督牧杖"
     ],
     "icon": 32778,
     "ilv": 510,
@@ -547,7 +547,7 @@
     "lang": [
       "エクサークロッド",
       "Exarchic Rod",
-      ""
+      "总督法杖"
     ],
     "icon": 33149,
     "ilv": 510,
@@ -607,7 +607,7 @@
     "lang": [
       "エクサークグリモア",
       "Exarchic Grimoire",
-      ""
+      "总督魔导书"
     ],
     "icon": 33216,
     "ilv": 510,
@@ -667,7 +667,7 @@
     "lang": [
       "エクサークコーデックス",
       "Exarchic Codex",
-      ""
+      "总督魔导典"
     ],
     "icon": 33215,
     "ilv": 510,
@@ -727,7 +727,7 @@
     "lang": [
       "エクサークスターグローブ",
       "Exarchic Star Globe",
-      ""
+      "总督天球仪"
     ],
     "icon": 34953,
     "ilv": 510,
@@ -787,7 +787,7 @@
     "lang": [
       "エクサークブレード",
       "Exarchic Blade",
-      ""
+      "总督武士刀"
     ],
     "icon": 36510,
     "ilv": 510,
@@ -847,7 +847,7 @@
     "lang": [
       "エクサークレイピア",
       "Exarchic Rapier",
-      ""
+      "总督刺剑"
     ],
     "icon": 36809,
     "ilv": 510,
@@ -907,7 +907,7 @@
     "lang": [
       "エクサークガンブレード",
       "Exarchic Gunblade",
-      ""
+      "总督枪刃"
     ],
     "icon": 36051,
     "ilv": 510,
@@ -967,7 +967,7 @@
     "lang": [
       "エクサークグレイヴ",
       "Exarchic Glaives",
-      ""
+      "总督轮刃"
     ],
     "icon": 36250,
     "ilv": 510,
@@ -1027,7 +1027,7 @@
     "lang": [
       "エクサーク・タワーシールド",
       "Exarchic Tower Shield",
-      ""
+      "总督塔盾"
     ],
     "icon": 30220,
     "ilv": 510,
@@ -1082,7 +1082,7 @@
     "lang": [
       "エクサーク・ディフェンダーサークレット",
       "Exarchic Circlet of Fending",
-      ""
+      "总督御敌头冠"
     ],
     "icon": 41691,
     "ilv": 510,
@@ -1137,7 +1137,7 @@
     "lang": [
       "エクサーク・ディフェンダーコート",
       "Exarchic Coat of Fending",
-      ""
+      "总督御敌大衣"
     ],
     "icon": 43769,
     "ilv": 510,
@@ -1192,7 +1192,7 @@
     "lang": [
       "エクサーク・ディフェンダーガントレット",
       "Exarchic Gauntlets of Fending",
-      ""
+      "总督御敌手甲"
     ],
     "icon": 56643,
     "ilv": 510,
@@ -1247,7 +1247,7 @@
     "lang": [
       "エクサーク・ディフェンダーホーズ",
       "Exarchic Hose of Fending",
-      ""
+      "总督御敌骑兵裤"
     ],
     "icon": 57269,
     "ilv": 510,
@@ -1302,7 +1302,7 @@
     "lang": [
       "エクサーク・ディフェンダーサバトン",
       "Exarchic Sabatons of Fending",
-      ""
+      "总督御敌铠靴"
     ],
     "icon": 57830,
     "ilv": 510,
@@ -1357,7 +1357,7 @@
     "lang": [
       "エクサーク・ディフェンダープレートベルト",
       "Exarchic Plate Belt of Fending",
-      ""
+      "总督御敌护腰带"
     ],
     "icon": 47303,
     "ilv": 510,
@@ -1412,7 +1412,7 @@
     "lang": [
       "エクサーク・スレイヤーサークレット",
       "Exarchic Circlet of Maiming",
-      ""
+      "总督制敌头冠"
     ],
     "icon": 41693,
     "ilv": 510,
@@ -1467,7 +1467,7 @@
     "lang": [
       "エクサーク・スレイヤーメイル",
       "Exarchic Mail of Maiming",
-      ""
+      "总督制敌链甲"
     ],
     "icon": 43770,
     "ilv": 510,
@@ -1522,7 +1522,7 @@
     "lang": [
       "エクサーク・スレイヤーガントレット",
       "Exarchic Gauntlets of Maiming",
-      ""
+      "总督制敌手甲"
     ],
     "icon": 56644,
     "ilv": 510,
@@ -1577,7 +1577,7 @@
     "lang": [
       "エクサーク・スレイヤーホーズ",
       "Exarchic Hose of Maiming",
-      ""
+      "总督制敌骑兵裤"
     ],
     "icon": 57271,
     "ilv": 510,
@@ -1632,7 +1632,7 @@
     "lang": [
       "エクサーク・スレイヤーサバトン",
       "Exarchic Sabatons of Maiming",
-      ""
+      "总督制敌铠靴"
     ],
     "icon": 57831,
     "ilv": 510,
@@ -1687,7 +1687,7 @@
     "lang": [
       "エクサーク・スレイヤープレートベルト",
       "Exarchic Plate Belt of Maiming",
-      ""
+      "总督制敌腰带"
     ],
     "icon": 47303,
     "ilv": 510,
@@ -1742,7 +1742,7 @@
     "lang": [
       "エクサーク・ストライカーフード",
       "Exarchic Hood of Striking",
-      ""
+      "总督强袭兜帽"
     ],
     "icon": 47979,
     "ilv": 510,
@@ -1797,7 +1797,7 @@
     "lang": [
       "エクサーク・ストライカートップス",
       "Exarchic Top of Striking",
-      ""
+      "总督强袭上装"
     ],
     "icon": 56047,
     "ilv": 510,
@@ -1852,7 +1852,7 @@
     "lang": [
       "エクサーク・ストライカーアームガード",
       "Exarchic Armguards of Striking",
-      ""
+      "总督强袭护臂"
     ],
     "icon": 56645,
     "ilv": 510,
@@ -1907,7 +1907,7 @@
     "lang": [
       "エクサーク・ストライカーボトム",
       "Exarchic Bottoms of Striking",
-      ""
+      "总督强袭打底裤"
     ],
     "icon": 57272,
     "ilv": 510,
@@ -1962,7 +1962,7 @@
     "lang": [
       "エクサーク・ストライカーブーツ",
       "Exarchic Boots of Striking",
-      ""
+      "总督强袭长靴"
     ],
     "icon": 57696,
     "ilv": 510,
@@ -2017,7 +2017,7 @@
     "lang": [
       "エクサーク・ストライカーサッシュ",
       "Exarchic Sash of Striking",
-      ""
+      "总督强袭腰围"
     ],
     "icon": 47353,
     "ilv": 510,
@@ -2072,7 +2072,7 @@
     "lang": [
       "エクサーク・レンジャーフード",
       "Exarchic Hood of Aiming",
-      ""
+      "总督精准兜帽"
     ],
     "icon": 47980,
     "ilv": 510,
@@ -2127,7 +2127,7 @@
     "lang": [
       "エクサーク・レンジャートップス",
       "Exarchic Top of Aiming",
-      ""
+      "总督精准上装"
     ],
     "icon": 56048,
     "ilv": 510,
@@ -2182,7 +2182,7 @@
     "lang": [
       "エクサーク・レンジャーアームガード",
       "Exarchic Armguards of Aiming",
-      ""
+      "总督精准护臂"
     ],
     "icon": 56646,
     "ilv": 510,
@@ -2237,7 +2237,7 @@
     "lang": [
       "エクサーク・レンジャーボトム",
       "Exarchic Bottoms of Aiming",
-      ""
+      "总督精准打底裤"
     ],
     "icon": 57273,
     "ilv": 510,
@@ -2292,7 +2292,7 @@
     "lang": [
       "エクサーク・レンジャーブーツ",
       "Exarchic Boots of Aiming",
-      ""
+      "总督精准长靴"
     ],
     "icon": 57697,
     "ilv": 510,
@@ -2347,7 +2347,7 @@
     "lang": [
       "エクサーク・レンジャーサッシュ",
       "Exarchic Sash of Aiming",
-      ""
+      "总督精准腰围"
     ],
     "icon": 47353,
     "ilv": 510,
@@ -2402,7 +2402,7 @@
     "lang": [
       "エクサーク・スカウトフード",
       "Exarchic Hood of Scouting",
-      ""
+      "总督游击兜帽"
     ],
     "icon": 47981,
     "ilv": 510,
@@ -2457,7 +2457,7 @@
     "lang": [
       "エクサーク・スカウトトップス",
       "Exarchic Top of Scouting",
-      ""
+      "总督游击上装"
     ],
     "icon": 56049,
     "ilv": 510,
@@ -2512,7 +2512,7 @@
     "lang": [
       "エクサーク・スカウトアームガード",
       "Exarchic Armguards of Scouting",
-      ""
+      "总督游击护臂"
     ],
     "icon": 56647,
     "ilv": 510,
@@ -2567,7 +2567,7 @@
     "lang": [
       "エクサーク・スカウトボトム",
       "Exarchic Bottoms of Scouting",
-      ""
+      "总督游击打底裤"
     ],
     "icon": 57274,
     "ilv": 510,
@@ -2622,7 +2622,7 @@
     "lang": [
       "エクサーク・スカウトブーツ",
       "Exarchic Boots of Scouting",
-      ""
+      "总督游击长靴"
     ],
     "icon": 57699,
     "ilv": 510,
@@ -2677,7 +2677,7 @@
     "lang": [
       "エクサーク・スカウトサッシュ",
       "Exarchic Sash of Scouting",
-      ""
+      "总督游击腰围"
     ],
     "icon": 47353,
     "ilv": 510,
@@ -2732,7 +2732,7 @@
     "lang": [
       "エクサーク・ヒーラーサークレット",
       "Exarchic Circlet of Healing",
-      ""
+      "总督治愈头冠"
     ],
     "icon": 41692,
     "ilv": 510,
@@ -2787,7 +2787,7 @@
     "lang": [
       "エクサーク・ヒーラーコート",
       "Exarchic Coat of Healing",
-      ""
+      "总督治愈大衣"
     ],
     "icon": 43929,
     "ilv": 510,
@@ -2842,7 +2842,7 @@
     "lang": [
       "エクサーク・ヒーラーグローブ",
       "Exarchic Gloves of Healing",
-      ""
+      "总督治愈手套"
     ],
     "icon": 56454,
     "ilv": 510,
@@ -2897,7 +2897,7 @@
     "lang": [
       "エクサーク・ヒーラーホーズ",
       "Exarchic Hose of Healing",
-      ""
+      "总督治愈骑兵裤"
     ],
     "icon": 57270,
     "ilv": 510,
@@ -2952,7 +2952,7 @@
     "lang": [
       "エクサーク・ヒーラーシューズ",
       "Exarchic Shoes of Healing",
-      ""
+      "总督治愈短靴"
     ],
     "icon": 57698,
     "ilv": 510,
@@ -3007,7 +3007,7 @@
     "lang": [
       "エクサーク・ヒーラープレートベルト",
       "Exarchic Plate Belt of Healing",
-      ""
+      "总督治愈护腰带"
     ],
     "icon": 47303,
     "ilv": 510,
@@ -3062,7 +3062,7 @@
     "lang": [
       "エクサーク・キャスターハット",
       "Exarchic Hat of Casting",
-      ""
+      "总督咏咒宽边帽"
     ],
     "icon": 54416,
     "ilv": 510,
@@ -3117,7 +3117,7 @@
     "lang": [
       "エクサーク・キャスターコート",
       "Exarchic Coat of Casting",
-      ""
+      "总督咏咒大衣"
     ],
     "icon": 43928,
     "ilv": 510,
@@ -3172,7 +3172,7 @@
     "lang": [
       "エクサーク・キャスターグローブ",
       "Exarchic Gloves of Casting",
-      ""
+      "总督咏咒手套"
     ],
     "icon": 56453,
     "ilv": 510,
@@ -3227,7 +3227,7 @@
     "lang": [
       "エクサーク・キャスターホーズ",
       "Exarchic Hose of Casting",
-      ""
+      "总督咏咒骑兵裤"
     ],
     "icon": 57268,
     "ilv": 510,
@@ -3282,7 +3282,7 @@
     "lang": [
       "エクサーク・キャスターシューズ",
       "Exarchic Shoes of Casting",
-      ""
+      "总督咏咒短靴"
     ],
     "icon": 57695,
     "ilv": 510,
@@ -3337,7 +3337,7 @@
     "lang": [
       "エクサーク・キャスタープレートベルト",
       "Exarchic Plate Belt of Casting",
-      ""
+      "总督咏咒护腰带"
     ],
     "icon": 47303,
     "ilv": 510,
@@ -3392,7 +3392,7 @@
     "lang": [
       "エクサーク・ディフェンダーイヤリング",
       "Exarchic Earrings of Fending",
-      ""
+      "总督御敌耳坠"
     ],
     "icon": 48762,
     "ilv": 510,
@@ -3441,7 +3441,7 @@
     "lang": [
       "エクサーク・アタッカーイヤリング",
       "Exarchic Earrings of Slaying",
-      ""
+      "总督强攻耳坠"
     ],
     "icon": 48762,
     "ilv": 510,
@@ -3490,7 +3490,7 @@
     "lang": [
       "エクサーク・レンジャーイヤリング",
       "Exarchic Earrings of Aiming",
-      ""
+      "总督精准耳坠"
     ],
     "icon": 48762,
     "ilv": 510,
@@ -3539,7 +3539,7 @@
     "lang": [
       "エクサーク・ヒーラーイヤリング",
       "Exarchic Earrings of Healing",
-      ""
+      "总督治愈耳坠"
     ],
     "icon": 48762,
     "ilv": 510,
@@ -3588,7 +3588,7 @@
     "lang": [
       "エクサーク・キャスターイヤリング",
       "Exarchic Earrings of Casting",
-      ""
+      "总督咏咒耳坠"
     ],
     "icon": 48762,
     "ilv": 510,
@@ -3637,7 +3637,7 @@
     "lang": [
       "エクサーク・ディフェンダーチョーカー",
       "Exarchic Choker of Fending",
-      ""
+      "总督御敌项环"
     ],
     "icon": 47828,
     "ilv": 510,
@@ -3686,7 +3686,7 @@
     "lang": [
       "エクサーク・アタッカーチョーカー",
       "Exarchic Choker of Slaying",
-      ""
+      "总督强攻项环"
     ],
     "icon": 47828,
     "ilv": 510,
@@ -3735,7 +3735,7 @@
     "lang": [
       "エクサーク・レンジャーチョーカー",
       "Exarchic Choker of Aiming",
-      ""
+      "总督精准项环"
     ],
     "icon": 47828,
     "ilv": 510,
@@ -3784,7 +3784,7 @@
     "lang": [
       "エクサーク・ヒーラーチョーカー",
       "Exarchic Choker of Healing",
-      ""
+      "总督治愈项环"
     ],
     "icon": 47828,
     "ilv": 510,
@@ -3833,7 +3833,7 @@
     "lang": [
       "エクサーク・キャスターチョーカー",
       "Exarchic Choker of Casting",
-      ""
+      "总督咏咒项环"
     ],
     "icon": 47828,
     "ilv": 510,
@@ -3882,7 +3882,7 @@
     "lang": [
       "エクサーク・ディフェンダーブレスレット",
       "Exarchic Bracelet of Fending",
-      ""
+      "总督御敌手镯"
     ],
     "icon": 47880,
     "ilv": 510,
@@ -3931,7 +3931,7 @@
     "lang": [
       "エクサーク・アタッカーブレスレット",
       "Exarchic Bracelet of Slaying",
-      ""
+      "总督强攻手镯"
     ],
     "icon": 47880,
     "ilv": 510,
@@ -3980,7 +3980,7 @@
     "lang": [
       "エクサーク・レンジャーブレスレット",
       "Exarchic Bracelet of Aiming",
-      ""
+      "总督精准手镯"
     ],
     "icon": 47880,
     "ilv": 510,
@@ -4029,7 +4029,7 @@
     "lang": [
       "エクサーク・ヒーラーブレスレット",
       "Exarchic Bracelet of Healing",
-      ""
+      "总督治愈手镯"
     ],
     "icon": 47880,
     "ilv": 510,
@@ -4078,7 +4078,7 @@
     "lang": [
       "エクサーク・キャスターブレスレット",
       "Exarchic Bracelet of Casting",
-      ""
+      "总督咏咒手镯"
     ],
     "icon": 47880,
     "ilv": 510,
@@ -4127,7 +4127,7 @@
     "lang": [
       "エクサーク・ディフェンダーリング",
       "Exarchic Ring of Fending",
-      ""
+      "总督御敌戒指"
     ],
     "icon": 48279,
     "ilv": 510,
@@ -4176,7 +4176,7 @@
     "lang": [
       "エクサーク・アタッカーリング",
       "Exarchic Ring of Slaying",
-      ""
+      "总督强攻戒指"
     ],
     "icon": 48279,
     "ilv": 510,
@@ -4225,7 +4225,7 @@
     "lang": [
       "エクサーク・レンジャーリング",
       "Exarchic Ring of Aiming",
-      ""
+      "总督精准戒指"
     ],
     "icon": 48279,
     "ilv": 510,
@@ -4274,7 +4274,7 @@
     "lang": [
       "エクサーク・ヒーラーリング",
       "Exarchic Ring of Healing",
-      ""
+      "总督治愈戒指"
     ],
     "icon": 48279,
     "ilv": 510,
@@ -4323,7 +4323,7 @@
     "lang": [
       "エクサーク・キャスターリング",
       "Exarchic Ring of Casting",
-      ""
+      "总督咏咒戒指"
     ],
     "icon": 48279,
     "ilv": 510,
