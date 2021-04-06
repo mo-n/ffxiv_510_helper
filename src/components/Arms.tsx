@@ -90,7 +90,7 @@ function Arm(props: Props) {
       <div className="text-center py-1 mb-4 text-lg border-gray-300 border-solid border-b">
         武器
       </div>
-      <div className="flex flex-wrap pb-4 justify-around">
+      <div className="flex flex-wrap select-none pb-4 justify-around">
         {Array.from(TankIcons).map(([id, Icon]) => (
           <NumberInputGroup
             key={id}
@@ -101,7 +101,7 @@ function Arm(props: Props) {
             <Icon
               onClick={() => store.setArms(id, store.arms.get(id)! + 1)}
               className={
-                "cursor-pointer select-none w-8 h-8 mr-1 fill-current rounded-md bg-blue text-yellow border-yellow border-2"
+                "cursor-pointer w-8 h-8 mr-1 fill-current rounded-md bg-blue text-yellow border-yellow border-2"
               }
             ></Icon>
           </NumberInputGroup>
@@ -116,7 +116,7 @@ function Arm(props: Props) {
             <Icon
               onClick={() => store.setArms(id, store.arms.get(id)! + 1)}
               className={
-                "cursor-pointer select-none w-8 h-8 mr-1 fill-current rounded-md bg-green text-yellow border-yellow border-2"
+                "cursor-pointer w-8 h-8 mr-1 fill-current rounded-md bg-green text-yellow border-yellow border-2"
               }
             ></Icon>
           </NumberInputGroup>
@@ -131,7 +131,7 @@ function Arm(props: Props) {
             <Icon
               onClick={() => store.setArms(id, store.arms.get(id)! + 1)}
               className={
-                "cursor-pointer select-none w-8 h-8 mr-1 fill-current rounded-md bg-red text-yellow border-yellow border-2"
+                "cursor-pointer w-8 h-8 mr-1 fill-current rounded-md bg-red text-yellow border-yellow border-2"
               }
             ></Icon>
           </NumberInputGroup>

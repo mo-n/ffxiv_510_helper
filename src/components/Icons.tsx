@@ -53,9 +53,10 @@ import ninjaFilledIcon from "assets/icon/ninja_filled.png";
 
 // app icon
 import { ReactComponent as MarketPurchase } from "assets/icon/MarketPurchase.svg";
+import { ReactComponent as ItemCommand } from "assets/icon/item_command_move_ac.svg";
 
 export {
-  UpIcon, BottomIcon, MarketPurchase,
+  UpIcon, BottomIcon, MarketPurchase, ItemCommand,
   ArmouryHead, ArmouryHands, ArmouryBody, ArmouryWaist, ArmouryLegs, ArmouryFeet, ArmouryEarrings, ArmouryNecklace, ArmouryBracelets, ArmouryRing, ArmouryMainArm, ArmourySubArm,
   tankIcon, tankIconFilled, healerIcon, healerIconFilled, dpsMagicIcon, dpsMagicIconFilled, rangedIcon, rangedIconFilled, dpsMeleeIcon, dpsMeleeFilledIcon, dragoonIcon, dragoonFilledIcon, ninjaIcon, ninjaFilledIcon,
   ClassJob19, ClassJob20, ClassJob21, ClassJob22, ClassJob23, ClassJob24, ClassJob25, ClassJob27, ClassJob28, ClassJob30, ClassJob31, ClassJob32, ClassJob33, ClassJob34, ClassJob35, ClassJob37, ClassJob38

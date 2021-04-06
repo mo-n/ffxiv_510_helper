@@ -3,19 +3,17 @@ import { observer } from "mobx-react-lite";
 
 import { Store } from "store";
 import Timer from "components/Timer";
-import Armorys from "components/Armorys";
+import Armors from "components/Armors";
 import Arms from "components/Arms";
 import Crafts from "components/Crafts";
 import RawMaterial from "components/RawMaterial";
 import Vendors from "components/Vendors";
+import Armorys from "components/Armorys";
 
 import "./App.css";
 import "assets/number.css";
 
 function App() {
-  // const EquipmentView = observer(Armorys);
-  // const ArmsView = observer(Arms);
-  // const CraftsView = observer(Crafts);
   const [store] = useState(() => new Store())
 
   return (
@@ -23,13 +21,13 @@ function App() {
       <main className="m-auto container">
         <div className=" grid grid-cols-1 md:grid-cols-4 grid-flow-col justify-center justify-items-center gap-3" style={{gridTemplateColumns: "repeat(4, 20rem)"}}>
           <div className="w-80 rounded shadow row-span-3 bg-white">
-
+            <Armorys list={store.armorys} />
           </div>
           <div className="w-80 rounded shadow bg-white">
             <Timer />
           </div>
           <div className="w-80 rounded shadow bg-white">
-            <Armorys store={store} />
+            <Armors store={store} />
           </div>
           <div className="w-80 rounded shadow bg-white">
             <Arms store={store} />

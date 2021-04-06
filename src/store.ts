@@ -50,7 +50,7 @@ const suitInfo: Map<Suit, SuitInfo> = new Map([
   [Suit.DpsMagic, { name: "法系", classjobcategory: [63] }],
   [Suit.Ranged, { name: "远敏", classjobcategory: [66, 105] }],
   [Suit.MonkSamurai, { name: "侍僧", classjobcategory: [65, 84] }],
-  [Suit.Dragoon, { name: "龙骑", classjobcategory: [65, 84] }],
+  [Suit.Dragoon, { name: "龙骑", classjobcategory: [47, 84] }],
   [Suit.Ninja, { name: "忍者", classjobcategory: [103, 105] }],
 ]);
 
